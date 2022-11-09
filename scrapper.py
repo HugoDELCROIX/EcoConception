@@ -1,7 +1,17 @@
+# Author: Thomas (Rhylionn)
+# Purpose: Fetch datas from isit-europe to get all 491 all good practicies for Design4Green preparation
+# This script has been design to make sure the server is not saturated with the help of sleeps
+
+
 from bs4 import BeautifulSoup
 from time import sleep
-import re
+from random import random
 import requests
+import json
+
+requests.adapters.DEFAULT_RETRIES = 4
+
+dumpedData = []
 
 # Url to be fetched
 baseUrl = "https://gr491.isit-europe.org/"
@@ -21,7 +31,17 @@ for familly in families:
 
   # Page that will be beautified in order to perfom searches on it (the family)
   familyLink = familly.attrs["href"]
-  familyPage = requests.get(baseUrl + familyLink)
+  familyPage = ""
+
+  while familyPage == "":
+    try:
+      familyPage = requests.get(baseUrl + familyLink)
+      break
+    except:
+      print("Couldn’t fetch a page... waiting before retry")
+      sleep(15)
+      continue
+  
   famillyPageSoup = BeautifulSoup(familyPage.text, 'html.parser')
 
   # Fetching class called famille
@@ -31,7 +51,7 @@ for familly in families:
 
   for recommandation in recommandations:
 
-    recoName =recommandation.find("button").text
+    recoName = recommandation.find("button").text
     recommandationName = recoName[3:len(recoName) - 2]
 
     print("Fetching " + recommandationName + "...")
@@ -43,26 +63,52 @@ for familly in families:
     for card in cards:
       # Link to request and get the indicator
       detailLink = card.attrs["href"]
+      cardKeyStep = card.find("h3")
 
-      keyStep = card.find("h3").text
-      paragraph = card.find("p").text
+      if cardKeyStep is not None:
+        keyStep = cardKeyStep.text
+      else:
+        keyStep = "N/A"
+
+      cardParagraph = card.find("p")
+      if cardParagraph is not None:
+        paragraph = cardParagraph.text
+      else:
+        paragraph = "N/A"
+
       categories = []
 
       cardCategories = card.find("div", {"class": "odd"}).find_all("span")
-      
-      for categorie in cardCategories:
-        categories.append(categorie.text)
+
+      if cardCategories is not None:
+        for categorie in cardCategories:
+          categories.append(categorie.text)
 
       isVital = True if "Incontournable" in categories else False
 
       # Fetch for the indicator in other page
-      detailPage = requests.get(baseUrl + detailLink)
+      detailPage = ""
+      while detailPage == "":
+        try:
+          detailPage = requests.get(baseUrl + detailLink)
+          break
+        except:
+          print("Couldn’t fetch a page... waiting before retry")
+          sleep(15)
+          continue
+      
       detailSoup = BeautifulSoup(detailPage.text, "html.parser")
+      indicator = "N/A"
+      lifecycle = "N/A"
 
-      indicatorAndLifecycle = detailSoup.find("div", {"class": "acteurs-metiers"}).find_all("p")
+      detailIndicatorAndLifecycle = detailSoup.find("div", {"class": "acteurs-metiers"})
 
-      indicator = indicatorAndLifecycle[0].text
-      lifecycle = indicatorAndLifecycle[1].text
+      if detailIndicatorAndLifecycle is not None:
+        indicatorAndLifecycle = detailIndicatorAndLifecycle.find_all("p")
+
+        if indicatorAndLifecycle is not None:
+          indicator = indicatorAndLifecycle[0].text if len(indicatorAndLifecycle) > 0 else "N/A"
+          lifecycle = indicatorAndLifecycle[1].text if len(indicatorAndLifecycle) > 1 else "N/A"
 
       print("Card done!")
 
@@ -76,7 +122,13 @@ for familly in families:
         "lifecycle": lifecycle
       }
 
-      print(finalDictionary)
-      sleep(3)
-      
-print("Done")
+      dumpedData.append(finalDictionary)
+      sleep((random()+0.5)*3)
+  
+  print("Waiting to start new family...")
+  sleep(15)
+
+with open("data.json", "w") as finalData:
+  json.dump(dumpedData, finalData)
+
+print("Done.")
