@@ -57,7 +57,7 @@ header {
 
 /* Style panier.php */
 
-.container-panier{
+.container-panier {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -70,7 +70,7 @@ header {
     background-color: #534340;
 }
 
-.container-panier button{
+.container-panier button {
     display: flex;
     align-items: center;
     width: 30%;
