@@ -3,8 +3,8 @@ const dotenv = require("dotenv")
 
 dotenv.config({ path: "./.env" })
 
-mongoose.connect(process.env.MONGODB_URL, {
-  useNewParser: true,
+mongoose.connect(process.env.MONGODB_URI, {
+  useNewUrlParser: true,
   useUnifiedTopology: true,
 })
 
