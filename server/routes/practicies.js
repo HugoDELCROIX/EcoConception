@@ -4,10 +4,14 @@ const router = express.Router()
 const Practice = require("../models/Practicies")
 
 router.get("/", (req, res, next) => {
+  const page = req.query.page || 0
+  const practicePerPage = 20
+
   res.setHeader("Content-Type", "application/json")
 
   Practice.find()
     .lean()
+
     .exec((err, docs) => {
       res.end(JSON.stringify(docs))
     })

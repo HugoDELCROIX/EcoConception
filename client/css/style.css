@@ -1,84 +1,84 @@
-@import url('import "@fontsource/montserrat"');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: #F9F9F9;
+  background-color: #f9f9f9;
 }
 
 /* Style Header */
 header {
-    font-family: "Montserrat", sans-serif;
-    color: #F9F9F9;
-    background-color: #42855B;
-    height: 110px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 30px 0;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 12px;
+  font-family: "Montserrat", sans-serif;
+  color: #f9f9f9;
+  background-color: #42855b;
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px 0;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 12px;
 }
 
 .container-nav {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 .container-nav a {
-    text-decoration: none;
-    color: #F9F9F9;
+  text-decoration: none;
+  color: #f9f9f9;
 }
 
 .icon-text {
-    width: 70px;
-    display: flex;
-    padding: 5px;
-    flex-direction: column;
-    align-items: center;
-    transition: 0.4s;
-    border-radius: 10px;
-    border: solid 2px transparent;
+  width: 70px;
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.4s;
+  border-radius: 10px;
+  border: solid 2px transparent;
 }
 
 .icon-text:hover {
-    background-color: #28593A;
-    border: solid 2px #F9F9F9;
+  background-color: #28593a;
+  border: solid 2px #f9f9f9;
 }
 
 .icon {
-    margin: 5px;
-    width: 20px;
-    height: 20px;
+  margin: 5px;
+  width: 20px;
+  height: 20px;
 }
 
 /* Style panier.php */
 
 .container-panier {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    color: #F9F9F9;
-    gap: 15px;
-    width: 400px;
-    padding: 20px;
-    border-radius: 16px;
-    margin: 50px auto;
-    background-color: #534340;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #f9f9f9;
+  gap: 15px;
+  width: 400px;
+  padding: 20px;
+  border-radius: 16px;
+  margin: 50px auto;
+  background-color: #534340;
 }
 
 .container-panier button {
-    display: flex;
-    align-items: center;
-    width: 30%;
-    margin: auto;
-    background-color: #42855B;
-    border-radius: 10px;
-    border: none;
-    padding: 10px;
-    color: #F9F9F9;
-    font-weight: 900;
+  display: flex;
+  align-items: center;
+  width: 30%;
+  margin: auto;
+  background-color: #42855b;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  color: #f9f9f9;
+  font-weight: 900;
 }

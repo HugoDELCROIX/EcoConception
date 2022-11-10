@@ -1,0 +1,51 @@
+#practicies-container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.practice-container {
+  background-color: #534340;
+  width: 260px;
+  height: 320px;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 10px;
+}
+
+.practice-container p:first-child {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+
+.practice-container hr {
+  width: 80%;
+  margin: 8px auto;
+}
+
+.practice-container .practice {
+  text-align: center;
+  color: white;
+  font-size: 16px;
+}
+
+.practice-container button {
+  margin: 10px auto;
+}
+
+#pagination-container {
+  text-align: center;
+}
+
+#pagination-container button {
+  width: 40px;
+  height: 40px;
+  background-color: #404258;
+  color: white;
+  border: none;
+  margin: 0 4px;
+  border-radius: 8px;
+}
