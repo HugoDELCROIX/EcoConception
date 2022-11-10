@@ -49,3 +49,11 @@
   margin: 0 4px;
   border-radius: 8px;
 }
+
+.isVital {
+  border: 4px #a62222 solid;
+}
+
+.isSelected {
+  border: 4px #42855b solid;
+}

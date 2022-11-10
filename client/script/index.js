@@ -5,7 +5,8 @@ let currentPage = 0
 let practiciesPerPage = 20
 
 ;(async function () {
-  let practicies = await getPracticies()
+  const defaultPracticies = await getPracticies()
+  let practicies = defaultPracticies
   makeFamiliesSelector(practicies)
   populateContainer(currentPage, practicies)
   makePagination(practicies)
@@ -64,8 +65,27 @@ let practiciesPerPage = 20
     criteria.innerHTML = practiceContent.criteria
     box.appendChild(criteria)
 
-    let button = document.createElement("button")
-    box.appendChild(button)
+    if (!practiceContent.isVital) {
+      let button = document.createElement("button")
+      button.innerHTML = "Add"
+
+      if (practiceContent.isSelected) {
+        box.classList.add("isSelected")
+        button.innerHTML = "Remove"
+      }
+
+      button.addEventListener("click", () => {
+        practiceContent.isSelected = !practiceContent.isSelected
+        button.innerHTML = practiceContent.isSelected ? "Remove" : "Add"
+        box.classList.toggle("isSelected")
+
+        // Function to add to/remove from local storage
+      })
+
+      box.appendChild(button)
+    } else {
+      box.classList.add("isVital")
+    }
 
     return box
   }
@@ -114,7 +134,7 @@ let practiciesPerPage = 20
     })
 
     familiesSelector.addEventListener("change", async (event) => {
-      practicies = await getPracticies()
+      practicies = defaultPracticies
       practicies =
         event.target.value == 0
           ? practicies
