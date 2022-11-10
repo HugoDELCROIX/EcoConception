@@ -1,6 +1,6 @@
 # Author: Thomas (Rhylionn)
-# Purpose: Fetch datas from isit-europe to get all 491 all good practicies for Design4Green preparation
-# This script has been design to make sure the server is not saturated with the help of sleeps
+# Purpose: Scrap data from the website containing all 491 good practicies for design4green training.
+# The script is designed to be slow in order to not saturate the server. (approx 30 minutes)
 
 
 from bs4 import BeautifulSoup
@@ -113,8 +113,9 @@ for familly in families:
       print("Card done!")
 
       finalDictionary = {
-        "family": familyTitle,
-        "name": recommandationName,
+        "familyName": familyTitle,
+        "recommandationName": recommandationName,
+        "criteria": paragraph,
         "isVital": isVital,
         "keystep": keyStep,
         "categories": categories,
@@ -123,7 +124,7 @@ for familly in families:
       }
 
       dumpedData.append(finalDictionary)
-      sleep((random()+0.5)*3)
+      sleep((random()+0.3)*3)
   
   print("Waiting to start new family...")
   sleep(15)
