@@ -1,0 +1,47 @@
+[
+	{
+	"family": "Strat\u00e9gie",
+	"name": "D\u00e9finir et valider les besoins et les enjeux du projet afin d'anticiper les impacts",
+	"isVital": true,
+	"keystep": "Emergence",
+	"categories": ["Recommandation", "Incontournable"],
+	"indicator": "Au moins 1 ODD couvert = 100 ; 0 ODD = 0 / 100",
+	"lifecycle": "Conception"
+  },
+  {
+	"family": "Strat\u00e9gie",
+	"name": "D\u00e9finir et valider les besoins et les enjeux du projet afin d'anticiper les impacts",
+	"isVital": true,
+	"keystep": "Cadrage projet",
+	"categories": ["Recommandation", "Incontournable"],
+	"indicator": "Expression r\u00e9dig\u00e9e et valid\u00e9e = 100 ; Expression formalis\u00e9e = 75 ; Tacite = 30 ; Non = 0 / 100",
+	"lifecycle": "Conception"
+  },
+  {
+	"family": "Strat\u00e9gie",
+	"name": "D\u00e9finir et valider les besoins et les enjeux du projet afin d'anticiper les impacts",
+	"isVital": false,
+	"keystep": "Emergence",
+	"categories": ["Conseil"],
+	"indicator": " / ",
+	"lifecycle": "N/A"
+  },
+  {
+	"family": "Strat\u00e9gie",
+	"name": "D\u00e9finir et valider les besoins et les enjeux du projet afin d'anticiper les impacts",
+	"isVital": false,
+	"keystep": "Emergence",
+	"categories": ["Recommandation"],
+	"indicator": "Informations diffus\u00e9es / Parties prenantes",
+	"lifecycle": "Conception"
+  },
+  {
+	"family": "Strat\u00e9gie",
+	"name": "D\u00e9finir et valider les besoins et les enjeux du projet afin d'anticiper les impacts",
+	"isVital": false,
+	"keystep": "Emergence",
+	"categories": ["Recommandation"],
+	"indicator": "Formalis\u00e9s = 100 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	"lifecycle": "Conception"
+  }
+]
