@@ -6,7 +6,8 @@ let practiciesPerPage = 20
 
 ;(async function () {
   let practicies = await getPracticies()
-  populateContainer(currentPage)
+  makeFamiliesSelector(practicies)
+  populateContainer(currentPage, practicies)
   makePagination(practicies)
 })()
 
@@ -33,15 +34,19 @@ async function getPracticies() {
 }
 
 // Populate practice container
-async function populateContainer(page) {
+async function populateContainer(page, practiciesInput) {
   practiciesContainer.innerHTML = ""
-  let practicies = await getPracticies()
+  let practicies = practiciesInput
 
-  let loop_start = page * practiciesPerPage
-  let loop_end = loop_start + practiciesPerPage
+  let start = page * practiciesPerPage
+  let end = start + practiciesPerPage
+  console.log(page, practicies)
+  let paginatedPracticies = practicies.slice(start, end)
 
-  for (let i = loop_start; i <= loop_end; i++) {
-    practiciesContainer.appendChild(makePracticeContainer(practicies[i]))
+  for (let i = 0; i < paginatedPracticies.length; i++) {
+    practiciesContainer.appendChild(
+      makePracticeContainer(paginatedPracticies[i])
+    )
   }
 }
 
@@ -73,18 +78,55 @@ function makePagination(practicies) {
   let nbPage = Math.ceil(practicies.length / practiciesPerPage)
 
   for (let i = 0; i < nbPage; i++) {
-    paginationContainer.appendChild(paginationButton(i))
+    paginationContainer.appendChild(paginationButton(i, practicies))
   }
 }
 
-function paginationButton(page) {
+function paginationButton(page, practicies) {
   let button = document.createElement("button")
   button.innerText = page
 
   button.addEventListener("click", () => {
     currentPage = page
-    populateContainer(currentPage)
+    populateContainer(currentPage, practicies)
   })
 
   return button
+}
+
+function makeFamiliesSelector(practicies) {
+  const familiesSelector = document.getElementById("familiesSelector")
+  const families = [
+    "Tout",
+    "Architecture",
+    "Back-end",
+    "Contenus",
+    "Front-end",
+    "Hébergement",
+    "Spécifications",
+    "Stratégie",
+    "Ux/Ui",
+  ]
+
+  families.forEach((family, index) => {
+    let option = document.createElement("option")
+    option.text = family
+    option.value = index
+    familiesSelector.appendChild(option)
+  })
+
+  familiesSelector.addEventListener("change", (event) => {
+    let filteredPracticies =
+      event.target.value == 0
+        ? practicies
+        : practicies.filter(
+            (practice) => practice.familyName === families[event.target.value]
+          )
+
+    console.log(filteredPracticies)
+
+    currentPage = 0
+    populateContainer(currentPage, filteredPracticies)
+    makePagination(filteredPracticies)
+  })
 }
