@@ -152,6 +152,8 @@ let practiciesPerPage = 20
     })
   }
 
+  // CART MANAGEMENT:
+
   function initializeCart() {
     sessionStorage.setItem(
       "selectedPracticies",
