@@ -11,6 +11,8 @@ let practiciesPerPage = 20
   populateContainer(currentPage, practicies)
   makePagination(practicies)
 
+  initializeCart()
+
   // Fetch api go retrieve the data from mongodb
   async function fetchApi() {
     try {
@@ -78,7 +80,9 @@ let practiciesPerPage = 20
         practiceContent.isSelected = !practiceContent.isSelected
         button.innerHTML = practiceContent.isSelected ? "Remove" : "Add"
         box.classList.toggle("isSelected")
-
+        practiceContent.isSelected
+          ? addToCart(practiceContent)
+          : removeFromCart(practiceContent)
         // Function to add to/remove from local storage
       })
 
@@ -146,5 +150,33 @@ let practiciesPerPage = 20
       populateContainer(currentPage)
       makePagination()
     })
+  }
+
+  function initializeCart() {
+    sessionStorage.setItem(
+      "selectedPracticies",
+      JSON.stringify(defaultPracticies.filter((practice) => practice.isVital))
+    )
+  }
+
+  function getCartStorage() {
+    return JSON.parse(sessionStorage.getItem("selectedPracticies"))
+  }
+
+  function setCartStorage(toSet) {
+    sessionStorage.setItem("selectedPracticies", JSON.stringify(toSet))
+  }
+
+  function addToCart(practice) {
+    let currentStorage = getCartStorage()
+    currentStorage.push(practice)
+    setCartStorage(currentStorage)
+  }
+
+  function removeFromCart(practice) {
+    let currentStorage = getCartStorage()
+    const index = currentStorage.indexOf(practice)
+    currentStorage.splice(index, 1)
+    setCartStorage(currentStorage)
   }
 })()
