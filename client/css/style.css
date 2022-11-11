@@ -1,4 +1,7 @@
-*{
+@import url('import "@fontsource/montserrat"');
+
+* {
     margin: 0;
     padding: 0;
 }
+
