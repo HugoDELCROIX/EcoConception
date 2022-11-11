@@ -13,36 +13,50 @@
         <p>Design4Green - Équipe 2</p>
 
         <h1>Selection des bonnes pratiques</h1>
+
+        <div class="container-nav">
+            <a class="icon-text" href="./resume.php">
+                <img src="./assets/images/book.svg" alt="book-icon" class="icon">
+                <p>Résumé</p>
+            </a>
+            <a class="icon-text" href="./panier.php">
+                <img src="./assets/images/cart.svg" alt="cart-icon" class="icon">
+                <p>Panier</p>
+            </a>
+        </div>
     </header>
     <section class="recherche">
-        <div class="deroulant">
-            <button class="categorie">Catégorie</button>
-            <div class="menu">
-            <a href="#">Cat 1</a>
-            <a href="#">Cat 2</a>
-            <a href="#">Cat 3</a>
+            <div class="place">
+            <div class="deroulant">
+                <select name="families" id="familiesSelector">
+                    <option>Catégorie</option>
+                </select>
+            </div>
+            <div class="barre">
+                <form action="#">
+                        <input type="text" placeholder="Rechercher une bonne pratique..." name="search" size=35px>
+                        <button type="submit" class="barre-search" >Recherche</button>
+                </form>
             </div>
         </div>
-        <div class="barre">
-            <form action="#">
-                        <input type="text" placeholder="Rechercher une bonne pratique" name="search" size="25px">
-                        <button type="submit" class="barre-search" >Recherche</button>
-            </form>
-        </div>
+        
         
         
     </section>
-    <h1> Les catégories : </h1>
+    <h2> Les catégories : </h2>
     <section id="cat">
         <div class="clique">
-            <p>Categorie </p>
-            <hr >
-            <p>les objets ....</p>
-
+            <div class="titre">
+                <p>Categorie </p>
+            </div>
+            <hr>
+            <p>Le télétravail est-il autorisé, sans limites, aux collaborateurs qui le souhaitent et dont l'activité le permet ?</p>
+            <button>Valider</button>
            
         </div>
         
     </section>
+
 </body>
 </html>
 

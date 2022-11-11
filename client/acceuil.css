@@ -1,8 +1,62 @@
-.categorie {
+/* Style Header */
+header {
+  font-family: "Montserrat", sans-serif;
+  color: #f9f9f9;
+  background-color: #42855b;
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px 0;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 12px;
+}
+
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.container-nav a {
+  text-decoration: none;
+  color: #f9f9f9;
+}
+
+.icon-text {
+  width: 70px;
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.4s;
+  border-radius: 10px;
+  border: solid 2px transparent;
+}
+
+.icon-text:hover {
+  background-color: #28593a;
+  border: solid 2px #f9f9f9;
+}
+
+.icon {
+  margin: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+/* fin header*/
+
+#recherche{
+  display:flex;
+	justify-content: center; 
+	flex-wrap : wrap; 
+}
+select {
     background-color: #42855B;
     color: white;
     padding: 16px;
     border: none;
+    border-radius: 20px;
   }
   
   .deroulant {
@@ -10,7 +64,7 @@
     display: inline-block;
   }
   
-  .menu {
+  .familiesSelector {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
@@ -19,21 +73,13 @@
     z-index: 1;
   }
   
-  .menu a {
+  .familiesSelector option {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
   }
   
-  .menu a:hover {background-color: #ddd;}
-  
-  .deroulant:hover .menu {display: block;}
-  
-  .deroulant:hover .categorie {background-color: #3e8e41;}
-
-
-
 
 input[type=text]{
   padding: 6px;
@@ -46,13 +92,23 @@ form{
   float: center; 
 }
 
-.barre{
-  width: 40%; 
-  margin: auto; 
-  border-color: #42855B;
+.place .deroulant{
+  float: left; 
+}
+.place{
+  padding:20px;
 }
 
-button{
+
+.barre{
+  position: relative;
+  display:flex;
+  margin :auto; 
+	justify-content: center; 
+	flex-wrap : wrap; 
+}
+
+.barre button{
   float: center;
   padding: 6px;
   margin-top: 8px;
@@ -64,16 +120,33 @@ button{
 
 
 .clique {
-	width: 25%;
-	margin : 2% 2%; 
-    position: relative;
-    display:flex;
+  position: relative;
+  display:flex;
 	justify-content: center; 
 	flex-wrap : wrap; 
+  width: 25%;
+	height: 30%;
+	border: none 1px;
+	border-radius: 20px;
+	background: #534340; 
+ 	margin : 0px 15px 15px ;  
+	padding : 15px ;
 }
 
+.clique hr{
+    width: 80%;
+    margin: 8px auto;
+}
 
-h1{
+.clique p:first-child{
+  text-align: center;
+}
+
+.titre{
+  width: 100%;
+}
+
+h2{
   margin: 10px;
   text-align: left;
 }
@@ -88,14 +161,3 @@ p{
 	flex-wrap : wrap; 
 }
 
-
-
-.clique{
-  width: 30%;
-	height: 30%;
-	border: none 1px;
-	border-radius: 20px;
-	background: #534340; 
- 	margin : 0px 15px 15px ;  
-	padding : 15px ;
-}
