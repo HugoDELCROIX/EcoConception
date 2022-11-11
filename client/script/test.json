@@ -1,47 +1,4646 @@
 [
 	{
-	"family": "Strat\u00e9gie",
-	"name": "D\u00e9finir et valider les besoins et les enjeux du projet afin d'anticiper les impacts",
-	"isVital": true,
-	"keystep": "Emergence",
-	"categories": ["Recommandation", "Incontournable"],
-	"indicator": "Au moins 1 ODD couvert = 100 ; 0 ODD = 0 / 100",
-	"lifecycle": "Conception"
-  },
-  {
-	"family": "Strat\u00e9gie",
-	"name": "D\u00e9finir et valider les besoins et les enjeux du projet afin d'anticiper les impacts",
-	"isVital": true,
-	"keystep": "Cadrage projet",
-	"categories": ["Recommandation", "Incontournable"],
-	"indicator": "Expression r\u00e9dig\u00e9e et valid\u00e9e = 100 ; Expression formalis\u00e9e = 75 ; Tacite = 30 ; Non = 0 / 100",
-	"lifecycle": "Conception"
-  },
-  {
-	"family": "Strat\u00e9gie",
-	"name": "D\u00e9finir et valider les besoins et les enjeux du projet afin d'anticiper les impacts",
-	"isVital": false,
-	"keystep": "Emergence",
-	"categories": ["Conseil"],
-	"indicator": " / ",
-	"lifecycle": "N/A"
-  },
-  {
-	"family": "Strat\u00e9gie",
-	"name": "D\u00e9finir et valider les besoins et les enjeux du projet afin d'anticiper les impacts",
-	"isVital": false,
-	"keystep": "Emergence",
-	"categories": ["Recommandation"],
-	"indicator": "Informations diffus\u00e9es / Parties prenantes",
-	"lifecycle": "Conception"
-  },
-  {
-	"family": "Strat\u00e9gie",
-	"name": "D\u00e9finir et valider les besoins et les enjeux du projet afin d'anticiper les impacts",
-	"isVital": false,
-	"keystep": "Emergence",
-	"categories": ["Recommandation"],
-	"indicator": "Formalis\u00e9s = 100 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
-	"lifecycle": "Conception"
-  }
-]
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9finir et valider les besoins et les enjeux du projet afin d'anticiper les impacts",
+	  "isVital": true,
+	  "keystep": "Emergence",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Au moins 1 ODD couvert = 100 ; 0 ODD = 0 / 100",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9finir et valider les besoins et les enjeux du projet afin d'anticiper les impacts",
+	  "isVital": true,
+	  "keystep": "Cadrage projet",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Expression r\u00e9dig\u00e9e et valid\u00e9e = 100 ; Expression formalis\u00e9e = 75 ; Tacite = 30 ; Non = 0 / 100",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9finir et valider les besoins et les enjeux du projet afin d'anticiper les impacts",
+	  "isVital": false,
+	  "keystep": "Emergence",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "N/A"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9finir et valider les besoins et les enjeux du projet afin d'anticiper les impacts",
+	  "isVital": false,
+	  "keystep": "Emergence",
+	  "categories": ["Recommandation"],
+	  "indicator": "Informations diffus\u00e9es / Parties prenantes",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9finir et valider les besoins et les enjeux du projet afin d'anticiper les impacts",
+	  "isVital": false,
+	  "keystep": "Emergence",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9finir et valider les besoins et les enjeux du projet afin d'anticiper les impacts",
+	  "isVital": false,
+	  "keystep": "Cadrage projet",
+	  "categories": ["Recommandation"],
+	  "indicator": "Meeting Distance / Meeting total",
+	  "lifecycle": "N/A"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9finir et valider les besoins et les enjeux du projet afin d'anticiper les impacts",
+	  "isVital": false,
+	  "keystep": "Cadrage projet",
+	  "categories": ["Recommandation"],
+	  "indicator": "Propositions de t\u00e9l\u00e9travail / Postes elligibles",
+	  "lifecycle": "N/A"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9finir et valider les besoins et les enjeux du projet afin d'anticiper les impacts",
+	  "isVital": false,
+	  "keystep": "Cadrage projet",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "N/A"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9finir et valider les besoins et les enjeux du projet afin d'anticiper les impacts",
+	  "isVital": false,
+	  "keystep": "Cadrage projet",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9finir et valider les besoins et les enjeux du projet afin d'anticiper les impacts",
+	  "isVital": false,
+	  "keystep": "Cadrage projet",
+	  "categories": ["Recommandation"],
+	  "indicator": "Oui = 100 ; Partiel = 50 ; Non = 0 / 100",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9finir et valider les besoins et les enjeux du projet afin d'anticiper les impacts",
+	  "isVital": false,
+	  "keystep": "Cadrage projet",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9finir et valider les besoins et les enjeux du projet afin d'anticiper les impacts",
+	  "isVital": false,
+	  "keystep": "Cadrage projet",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9finir et valider les besoins et les enjeux du projet afin d'anticiper les impacts",
+	  "isVital": false,
+	  "keystep": "Cadrage projet",
+	  "categories": ["Recommandation"],
+	  "indicator": "Abord\u00e9e = 100 ; Partielle = 50 ; Non trait\u00e9e = 0 / 100",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9finir et valider les besoins et les enjeux du projet afin d'anticiper les impacts",
+	  "isVital": false,
+	  "keystep": "Cadrage projet",
+	  "categories": ["Recommandation"],
+	  "indicator": "Questions formalis\u00e9es / Besoins clients",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9finir et valider les besoins et les enjeux du projet afin d'anticiper les impacts",
+	  "isVital": false,
+	  "keystep": "Cadrage projet",
+	  "categories": ["Recommandation"],
+	  "indicator": "Oui = 100 ; Partiel = 50 ; Non = 0 / 100",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9finir et valider les besoins et les enjeux du projet afin d'anticiper les impacts",
+	  "isVital": false,
+	  "keystep": "Cadrage projet",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9finir et valider les besoins et les enjeux du projet afin d'anticiper les impacts",
+	  "isVital": false,
+	  "keystep": "Cadrage projet",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9finir et valider les besoins et les enjeux du projet afin d'anticiper les impacts",
+	  "isVital": false,
+	  "keystep": "Cadrage projet",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9finir et valider les besoins et les enjeux du projet afin d'anticiper les impacts",
+	  "isVital": false,
+	  "keystep": "Cadrage projet",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9finir et valider les besoins et les enjeux du projet afin d'anticiper les impacts",
+	  "isVital": false,
+	  "keystep": "Cadrage projet",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9finir et valider les besoins et les enjeux du projet afin d'anticiper les impacts",
+	  "isVital": false,
+	  "keystep": "Emergence",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9finir et valider les besoins et les enjeux du projet afin d'anticiper les impacts",
+	  "isVital": false,
+	  "keystep": "Emergence",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9finir et valider les besoins et les enjeux du projet afin d'anticiper les impacts",
+	  "isVital": false,
+	  "keystep": "Emergence",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Revalorisation"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9finir et valider les besoins et les enjeux du projet afin d'anticiper les impacts",
+	  "isVital": false,
+	  "keystep": "Emergence",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9finir et valider les besoins et les enjeux du projet afin d'anticiper les impacts",
+	  "isVital": false,
+	  "keystep": "Emergence",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9finir et valider les besoins et les enjeux du projet afin d'anticiper les impacts",
+	  "isVital": false,
+	  "keystep": "Emergence",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "N/A"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "Pr\u00e9voir, pr\u00e9parer et valider les disponibilit\u00e9s des ressources humaines du Num\u00e9rique Responsable",
+	  "isVital": true,
+	  "keystep": "Emergence",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Sensibilisations NR / Membre \u00e9quipe",
+	  "lifecycle": "N/A"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "Pr\u00e9voir, pr\u00e9parer et valider les disponibilit\u00e9s des ressources humaines du Num\u00e9rique Responsable",
+	  "isVital": false,
+	  "keystep": "Emergence",
+	  "categories": ["Recommandation"],
+	  "indicator": "Form\u00e9s au NR / Membre \u00e9quipe",
+	  "lifecycle": "N/A"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "Pr\u00e9voir, pr\u00e9parer et valider les disponibilit\u00e9s des ressources humaines du Num\u00e9rique Responsable",
+	  "isVital": false,
+	  "keystep": "Emergence",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "N/A"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "Pr\u00e9voir, pr\u00e9parer et valider les disponibilit\u00e9s des ressources humaines du Num\u00e9rique Responsable",
+	  "isVital": false,
+	  "keystep": "Emergence",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "N/A"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "Pr\u00e9voir, pr\u00e9parer et valider les disponibilit\u00e9s des ressources humaines du Num\u00e9rique Responsable",
+	  "isVital": false,
+	  "keystep": "Emergence",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Revalorisation"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "Pr\u00e9voir, pr\u00e9parer et valider les disponibilit\u00e9s des ressources humaines du Num\u00e9rique Responsable",
+	  "isVital": false,
+	  "keystep": "Emergence",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "N/A"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "Pr\u00e9voir, pr\u00e9parer et valider les disponibilit\u00e9s des ressources humaines du Num\u00e9rique Responsable",
+	  "isVital": false,
+	  "keystep": "Emergence",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Revalorisation"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "Pr\u00e9voir, pr\u00e9parer et valider les disponibilit\u00e9s des ressources humaines du Num\u00e9rique Responsable",
+	  "isVital": false,
+	  "keystep": "Emergence",
+	  "categories": ["Recommandation"],
+	  "indicator": "Abord\u00e9e = 100 ; Partielle = 50 ; Non trait\u00e9e = 0 / 100",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "Pr\u00e9voir, pr\u00e9parer et valider les disponibilit\u00e9s des ressources humaines du Num\u00e9rique Responsable",
+	  "isVital": false,
+	  "keystep": "Emergence",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9terminer et planifier la capacit\u00e9 de suivre et capitaliser sur les composantes Num\u00e9rique Responsable des projets",
+	  "isVital": true,
+	  "keystep": "Emergence",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Document valid\u00e9 et expos\u00e9 = 100 ; Partiel = 50 ; Pr\u00e9vu = 25 ; Non = 0 / 100",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9terminer et planifier la capacit\u00e9 de suivre et capitaliser sur les composantes Num\u00e9rique Responsable des projets",
+	  "isVital": false,
+	  "keystep": "Cadrage projet",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Revalorisation"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9terminer et planifier la capacit\u00e9 de suivre et capitaliser sur les composantes Num\u00e9rique Responsable des projets",
+	  "isVital": false,
+	  "keystep": "Cadrage projet",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Revalorisation"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9terminer et planifier la capacit\u00e9 de suivre et capitaliser sur les composantes Num\u00e9rique Responsable des projets",
+	  "isVital": false,
+	  "keystep": "Cadrage projet",
+	  "categories": ["Recommandation"],
+	  "indicator": "Volume r\u00e9utils\u00e9 / Volume service",
+	  "lifecycle": "Revalorisation"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9terminer et planifier la capacit\u00e9 de suivre et capitaliser sur les composantes Num\u00e9rique Responsable des projets",
+	  "isVital": false,
+	  "keystep": "Cadrage projet",
+	  "categories": ["Recommandation"],
+	  "indicator": "Volume r\u00e9utils\u00e9 / Fonctionnalit\u00e9s",
+	  "lifecycle": "Revalorisation"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9terminer et planifier la capacit\u00e9 de suivre et capitaliser sur les composantes Num\u00e9rique Responsable des projets",
+	  "isVital": false,
+	  "keystep": "Cadrage projet",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Fin de Vie"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9terminer et planifier la capacit\u00e9 de suivre et capitaliser sur les composantes Num\u00e9rique Responsable des projets",
+	  "isVital": false,
+	  "keystep": "Cadrage projet",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9terminer et planifier la capacit\u00e9 de suivre et capitaliser sur les composantes Num\u00e9rique Responsable des projets",
+	  "isVital": false,
+	  "keystep": "Cadrage projet",
+	  "categories": ["Recommandation"],
+	  "indicator": "Parcours analys\u00e9s / Parcours user",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9terminer et planifier la capacit\u00e9 de suivre et capitaliser sur les composantes Num\u00e9rique Responsable des projets",
+	  "isVital": false,
+	  "keystep": "Emergence",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9terminer et planifier la capacit\u00e9 de suivre et capitaliser sur les composantes Num\u00e9rique Responsable des projets",
+	  "isVital": false,
+	  "keystep": "Emergence",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9terminer et planifier la capacit\u00e9 de suivre et capitaliser sur les composantes Num\u00e9rique Responsable des projets",
+	  "isVital": false,
+	  "keystep": "Emergence",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Fin de Vie"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9terminer et planifier la capacit\u00e9 de suivre et capitaliser sur les composantes Num\u00e9rique Responsable des projets",
+	  "isVital": false,
+	  "keystep": "Emergence",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Revalorisation"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9terminer et planifier la capacit\u00e9 de suivre et capitaliser sur les composantes Num\u00e9rique Responsable des projets",
+	  "isVital": false,
+	  "keystep": "Emergence",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Revalorisation"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "D\u00e9terminer et planifier la capacit\u00e9 de suivre et capitaliser sur les composantes Num\u00e9rique Responsable des projets",
+	  "isVital": false,
+	  "keystep": "Emergence",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "Pr\u00e9voir, pr\u00e9parer et valider les \u00e9l\u00e9ments techniques du projet pour la conformit\u00e9 avec le Num\u00e9rique Responsable",
+	  "isVital": false,
+	  "keystep": "Emergence",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "Pr\u00e9voir, pr\u00e9parer et valider les \u00e9l\u00e9ments techniques du projet pour la conformit\u00e9 avec le Num\u00e9rique Responsable",
+	  "isVital": false,
+	  "keystep": "Cadrage projet",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "Pr\u00e9voir, pr\u00e9parer et valider les \u00e9l\u00e9ments techniques du projet pour la conformit\u00e9 avec le Num\u00e9rique Responsable",
+	  "isVital": false,
+	  "keystep": "Cadrage projet",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "Pr\u00e9voir, pr\u00e9parer et valider les \u00e9l\u00e9ments techniques du projet pour la conformit\u00e9 avec le Num\u00e9rique Responsable",
+	  "isVital": false,
+	  "keystep": "Cadrage projet",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "Pr\u00e9voir, pr\u00e9parer et valider les \u00e9l\u00e9ments techniques du projet pour la conformit\u00e9 avec le Num\u00e9rique Responsable",
+	  "isVital": false,
+	  "keystep": "Emergence",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "Pr\u00e9voir, pr\u00e9parer et valider les \u00e9l\u00e9ments techniques du projet pour la conformit\u00e9 avec le Num\u00e9rique Responsable",
+	  "isVital": false,
+	  "keystep": "Emergence",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "Pr\u00e9voir, pr\u00e9parer et valider les \u00e9l\u00e9ments techniques du projet pour la conformit\u00e9 avec le Num\u00e9rique Responsable",
+	  "isVital": false,
+	  "keystep": "Emergence",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "Pr\u00e9voir, pr\u00e9parer et valider les \u00e9l\u00e9ments techniques du projet pour la conformit\u00e9 avec le Num\u00e9rique Responsable",
+	  "isVital": false,
+	  "keystep": "Emergence",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "Pr\u00e9voir, pr\u00e9parer et valider les \u00e9l\u00e9ments techniques du projet pour la conformit\u00e9 avec le Num\u00e9rique Responsable",
+	  "isVital": false,
+	  "keystep": "Emergence",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "Agir en faveur de la r\u00e9duction des impacts du SI en construisant des cibles et plans de SI urbanis\u00e9s (*NEW)",
+	  "isVital": true,
+	  "keystep": "Urbanisation",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "NB de projets inscrits dans la vision cible du SI ? / NB de projets",
+	  "lifecycle": "Revalorisation"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "Agir en faveur de la r\u00e9duction des impacts du SI en construisant des cibles et plans de SI urbanis\u00e9s (*NEW)",
+	  "isVital": false,
+	  "keystep": "Urbanisation",
+	  "categories": ["Recommandation"],
+	  "indicator": "NB de projets inscrits dans la vision cible du SI ? / NB de projets",
+	  "lifecycle": "N/A"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "Agir en faveur de la r\u00e9duction des impacts du SI en construisant des cibles et plans de SI urbanis\u00e9s (*NEW)",
+	  "isVital": false,
+	  "keystep": "Urbanisation",
+	  "categories": ["Recommandation"],
+	  "indicator": "NB de projets inscrits dans la vision cible du SI ? / NB de projets",
+	  "lifecycle": "N/A"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "Agir en faveur de la r\u00e9duction des impacts du SI en construisant des cibles et plans de SI urbanis\u00e9s (*NEW)",
+	  "isVital": false,
+	  "keystep": "Urbanisation",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "N/A"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "Agir en faveur de la r\u00e9duction des impacts du SI en construisant des cibles et plans de SI urbanis\u00e9s (*NEW)",
+	  "isVital": false,
+	  "keystep": "Urbanisation",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "N/A"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "Agir en faveur de la r\u00e9duction des impacts du SI en optimisant les assets IT et en mutualisant (*NEW)",
+	  "isVital": true,
+	  "keystep": "Urbanisation",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": " / ",
+	  "lifecycle": "Revalorisation"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "Agir en faveur de la r\u00e9duction des impacts du SI en optimisant les assets IT et en mutualisant (*NEW)",
+	  "isVital": false,
+	  "keystep": "Urbanisation",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "N/A"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "Agir en faveur de la r\u00e9duction des impacts du SI en optimisant les assets IT et en mutualisant (*NEW)",
+	  "isVital": false,
+	  "keystep": "Urbanisation",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Revalorisation"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "Agir en faveur de la r\u00e9duction des impacts du SI en optimisant les assets IT et en mutualisant (*NEW)",
+	  "isVital": false,
+	  "keystep": "Urbanisation",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Revalorisation"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "Agir en faveur de la r\u00e9duction des impacts du SI en mettent en \u0153uvre des socles applicatifs et data (*NEW)",
+	  "isVital": false,
+	  "keystep": "Urbanisation",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "N/A"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "Agir en faveur de la r\u00e9duction des impacts du SI en mettent en \u0153uvre des socles applicatifs et data (*NEW)",
+	  "isVital": false,
+	  "keystep": "Urbanisation",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "N/A"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "Agir en faveur de la r\u00e9duction des impacts du SI en mettent en \u0153uvre des socles applicatifs et data (*NEW)",
+	  "isVital": false,
+	  "keystep": "Urbanisation",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "N/A"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "Agir en faveur de la r\u00e9duction des impacts du SI en mettent en \u0153uvre des socles applicatifs et data (*NEW)",
+	  "isVital": false,
+	  "keystep": "Urbanisation",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "N/A"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "Agir en faveur de la r\u00e9duction des impacts du SI en mettent en \u0153uvre des socles applicatifs et data (*NEW)",
+	  "isVital": false,
+	  "keystep": "Urbanisation",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "N/A"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "Agir en faveur de la r\u00e9duction des impacts du SI en optimisant la valorisation de la data  (*NEW)",
+	  "isVital": false,
+	  "keystep": "Urbanisation",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "Agir en faveur de la r\u00e9duction des impacts du SI en optimisant la valorisation de la data  (*NEW)",
+	  "isVital": false,
+	  "keystep": "Urbanisation",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "Agir en faveur de la r\u00e9duction des impacts du SI en optimisant la valorisation de la data  (*NEW)",
+	  "isVital": false,
+	  "keystep": "Urbanisation",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "N/A"
+	},
+	{
+	  "family": "Strat\u00e9gie",
+	  "name": "Agir en faveur de la r\u00e9duction des impacts du SI en optimisant la valorisation de la data  (*NEW)",
+	  "isVital": false,
+	  "keystep": "Urbanisation",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Organiser les ressources humaines projets pour permettre la prise en compte de la d\u00e9marche NR",
+	  "isVital": true,
+	  "keystep": "Equipe projet",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Enjeux NR communiqu\u00e9s / Membre \u00e9quipe",
+	  "lifecycle": "N/A"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Organiser les ressources humaines projets pour permettre la prise en compte de la d\u00e9marche NR",
+	  "isVital": true,
+	  "keystep": "Equipe projet",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Plan de formation NR = 100 ; Mise \u00e0 dispo de ressources NR = 50 ; Non = 0 / 100",
+	  "lifecycle": "N/A"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Organiser les ressources humaines projets pour permettre la prise en compte de la d\u00e9marche NR",
+	  "isVital": false,
+	  "keystep": "Equipe projet",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "N/A"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Organiser les ressources humaines projets pour permettre la prise en compte de la d\u00e9marche NR",
+	  "isVital": false,
+	  "keystep": "Utilisateurs et clients",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Organiser les ressources humaines projets pour permettre la prise en compte de la d\u00e9marche NR",
+	  "isVital": false,
+	  "keystep": "Equipe projet",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Revalorisation"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Organiser les ressources humaines projets pour permettre la prise en compte de la d\u00e9marche NR",
+	  "isVital": false,
+	  "keystep": "Equipe projet",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Inclure les utilisateurs dans les ressources projet NR",
+	  "isVital": false,
+	  "keystep": "Utilisateurs et clients",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Inclure les utilisateurs dans les ressources projet NR",
+	  "isVital": false,
+	  "keystep": "Utilisateurs et clients",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Inclure les utilisateurs dans les ressources projet NR",
+	  "isVital": false,
+	  "keystep": "N/A",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Inclure les utilisateurs dans les ressources projet NR",
+	  "isVital": false,
+	  "keystep": "Utilisateurs et clients",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Inclure les utilisateurs dans les ressources projet NR",
+	  "isVital": false,
+	  "keystep": "Utilisateurs et clients",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Organiser la m\u00e9thodologie projet pour permettre d'appliquer une d\u00e9marche NR",
+	  "isVital": true,
+	  "keystep": "M\u00e9thodologie projet",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Nombre US avec info NR / Nombre US",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Organiser la m\u00e9thodologie projet pour permettre d'appliquer une d\u00e9marche NR",
+	  "isVital": false,
+	  "keystep": "M\u00e9thodologie projet",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "N/A"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Organiser la m\u00e9thodologie projet pour permettre d'appliquer une d\u00e9marche NR",
+	  "isVital": false,
+	  "keystep": "M\u00e9thodologie projet",
+	  "categories": ["Recommandation"],
+	  "indicator": "Nombre US NR / Nombre US NFR",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Organiser la m\u00e9thodologie projet pour permettre d'appliquer une d\u00e9marche NR",
+	  "isVital": false,
+	  "keystep": "M\u00e9thodologie projet",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Organiser la m\u00e9thodologie projet pour permettre d'appliquer une d\u00e9marche NR",
+	  "isVital": false,
+	  "keystep": "M\u00e9thodologie projet",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Organiser la m\u00e9thodologie projet pour permettre d'appliquer une d\u00e9marche NR",
+	  "isVital": false,
+	  "keystep": "Production",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Organiser la m\u00e9thodologie projet pour permettre d'appliquer une d\u00e9marche NR",
+	  "isVital": false,
+	  "keystep": "Production",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Organiser la m\u00e9thodologie projet pour permettre d'appliquer une d\u00e9marche NR",
+	  "isVital": false,
+	  "keystep": "Production",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Organiser la m\u00e9thodologie projet pour permettre d'appliquer une d\u00e9marche NR",
+	  "isVital": false,
+	  "keystep": "Production",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Revalorisation"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Construire le p\u00e9rim\u00e8tre du projet et valider la pertinence de chaque fonctionnalit\u00e9",
+	  "isVital": false,
+	  "keystep": "Produit",
+	  "categories": ["Recommandation"],
+	  "indicator": "Exigences NR / Fonctionnalit\u00e9s",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Construire le p\u00e9rim\u00e8tre du projet et valider la pertinence de chaque fonctionnalit\u00e9",
+	  "isVital": false,
+	  "keystep": "Produit",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Construire le p\u00e9rim\u00e8tre du projet et valider la pertinence de chaque fonctionnalit\u00e9",
+	  "isVital": false,
+	  "keystep": "Technologie",
+	  "categories": ["Recommandation"],
+	  "indicator": "Exigences NR / Fonctionnalit\u00e9s avec NFR",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Construire le p\u00e9rim\u00e8tre du projet et valider la pertinence de chaque fonctionnalit\u00e9",
+	  "isVital": false,
+	  "keystep": "Produit",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Construire le p\u00e9rim\u00e8tre du projet et valider la pertinence de chaque fonctionnalit\u00e9",
+	  "isVital": false,
+	  "keystep": "Produit",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Construire le p\u00e9rim\u00e8tre du projet et valider la pertinence de chaque fonctionnalit\u00e9",
+	  "isVital": false,
+	  "keystep": "Produit",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Construire le p\u00e9rim\u00e8tre du projet et valider la pertinence de chaque fonctionnalit\u00e9",
+	  "isVital": false,
+	  "keystep": "Produit",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Construire le p\u00e9rim\u00e8tre du projet et valider la pertinence de chaque fonctionnalit\u00e9",
+	  "isVital": false,
+	  "keystep": "Produit",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Construire le p\u00e9rim\u00e8tre du projet et valider la pertinence de chaque fonctionnalit\u00e9",
+	  "isVital": false,
+	  "keystep": "Environnement externe",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Construire le p\u00e9rim\u00e8tre du projet et valider la pertinence de chaque fonctionnalit\u00e9",
+	  "isVital": false,
+	  "keystep": "Environnement externe",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Construire le p\u00e9rim\u00e8tre du projet et valider la pertinence de chaque fonctionnalit\u00e9",
+	  "isVital": false,
+	  "keystep": "Environnement externe",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Construire le p\u00e9rim\u00e8tre du projet et valider la pertinence de chaque fonctionnalit\u00e9",
+	  "isVital": false,
+	  "keystep": "Technique IT",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Construire le p\u00e9rim\u00e8tre du projet et valider la pertinence de chaque fonctionnalit\u00e9",
+	  "isVital": false,
+	  "keystep": "Technique IT",
+	  "categories": ["Recommandation"],
+	  "indicator": "Validations / Interactions User",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Construire le p\u00e9rim\u00e8tre du projet et valider la pertinence de chaque fonctionnalit\u00e9",
+	  "isVital": false,
+	  "keystep": "N/A",
+	  "categories": ["Recommandation"],
+	  "indicator": "Analys\u00e9e = 100 ; pr\u00e9sum\u00e9e = 50 ; Non = 0 / Fonctionnalit\u00e9s",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Pr\u00e9parer le suivi du cycle de vie du projet et des indicateurs de performance / b\u00e9n\u00e9fice NR",
+	  "isVital": true,
+	  "keystep": "Processus \u00e9conomique",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Exigences NR dans AO / Appel d'offres",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Pr\u00e9parer le suivi du cycle de vie du projet et des indicateurs de performance / b\u00e9n\u00e9fice NR",
+	  "isVital": true,
+	  "keystep": "Gestion du cycle de vie",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Fin de Vie"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Pr\u00e9parer le suivi du cycle de vie du projet et des indicateurs de performance / b\u00e9n\u00e9fice NR",
+	  "isVital": false,
+	  "keystep": "Objectifs projet",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Pr\u00e9parer le suivi du cycle de vie du projet et des indicateurs de performance / b\u00e9n\u00e9fice NR",
+	  "isVital": false,
+	  "keystep": "Objectifs projet",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Pr\u00e9parer le suivi du cycle de vie du projet et des indicateurs de performance / b\u00e9n\u00e9fice NR",
+	  "isVital": false,
+	  "keystep": "Objectifs projet",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Pr\u00e9parer le suivi du cycle de vie du projet et des indicateurs de performance / b\u00e9n\u00e9fice NR",
+	  "isVital": false,
+	  "keystep": "Gestion du cycle de vie",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Pr\u00e9parer le suivi du cycle de vie du projet et des indicateurs de performance / b\u00e9n\u00e9fice NR",
+	  "isVital": false,
+	  "keystep": "Production",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Pr\u00e9parer le suivi du cycle de vie du projet et des indicateurs de performance / b\u00e9n\u00e9fice NR",
+	  "isVital": false,
+	  "keystep": "Technologie",
+	  "categories": ["Recommandation"],
+	  "indicator": "Etude obsolescence / Mises \u00e0 jour",
+	  "lifecycle": "Maintenance"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Pr\u00e9parer le suivi du cycle de vie du projet et des indicateurs de performance / b\u00e9n\u00e9fice NR",
+	  "isVital": false,
+	  "keystep": "Technologie",
+	  "categories": ["Recommandation"],
+	  "indicator": "Evaluations / Mat\u00e9riels identifi\u00e9s",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Pr\u00e9parer le suivi du cycle de vie du projet et des indicateurs de performance / b\u00e9n\u00e9fice NR",
+	  "isVital": false,
+	  "keystep": "Planification",
+	  "categories": ["Recommandation"],
+	  "indicator": "Composantes NR dans les revues / Revues de projets",
+	  "lifecycle": "Revalorisation"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Pr\u00e9parer le suivi du cycle de vie du projet et des indicateurs de performance / b\u00e9n\u00e9fice NR",
+	  "isVital": false,
+	  "keystep": "Planification",
+	  "categories": ["Recommandation"],
+	  "indicator": "Revue NR / Mise en production",
+	  "lifecycle": "Maintenance"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "Pr\u00e9parer le suivi du cycle de vie du projet et des indicateurs de performance / b\u00e9n\u00e9fice NR",
+	  "isVital": false,
+	  "keystep": "Gestion du cycle de vie",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Fin de Vie"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "D\u00e9terminer l'environnement de production dans lequel le projet sera construit et d\u00e9ploy\u00e9 en accord avec les principes NR",
+	  "isVital": false,
+	  "keystep": "Processus \u00e9conomique",
+	  "categories": ["Recommandation"],
+	  "indicator": "Composantes NR / Achats externes",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "D\u00e9terminer l'environnement de production dans lequel le projet sera construit et d\u00e9ploy\u00e9 en accord avec les principes NR",
+	  "isVital": false,
+	  "keystep": "Processus \u00e9conomique",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "D\u00e9terminer l'environnement de production dans lequel le projet sera construit et d\u00e9ploy\u00e9 en accord avec les principes NR",
+	  "isVital": false,
+	  "keystep": "Processus \u00e9conomique",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "D\u00e9terminer l'environnement de production dans lequel le projet sera construit et d\u00e9ploy\u00e9 en accord avec les principes NR",
+	  "isVital": false,
+	  "keystep": "D\u00e9ploiement",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "D\u00e9terminer l'environnement de production dans lequel le projet sera construit et d\u00e9ploy\u00e9 en accord avec les principes NR",
+	  "isVital": false,
+	  "keystep": "Technologie",
+	  "categories": ["Recommandation"],
+	  "indicator": "Syst\u00e9matique = 100 ; Conseill\u00e9 = 50 : Non = 0 / 100",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "D\u00e9terminer l'environnement de production dans lequel le projet sera construit et d\u00e9ploy\u00e9 en accord avec les principes NR",
+	  "isVital": false,
+	  "keystep": "D\u00e9ploiement",
+	  "categories": ["Recommandation"],
+	  "indicator": "Information NR / Composants projet",
+	  "lifecycle": "Revalorisation"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "D\u00e9terminer l'environnement de production dans lequel le projet sera construit et d\u00e9ploy\u00e9 en accord avec les principes NR",
+	  "isVital": false,
+	  "keystep": "Evolutions",
+	  "categories": ["Recommandation"],
+	  "indicator": "Analyses de d\u00e9pendances / Solutions techniques",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "D\u00e9terminer l'environnement de production dans lequel le projet sera construit et d\u00e9ploy\u00e9 en accord avec les principes NR",
+	  "isVital": false,
+	  "keystep": "P\u00e9rennit\u00e9",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Revalorisation"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "D\u00e9terminer l'environnement de production dans lequel le projet sera construit et d\u00e9ploy\u00e9 en accord avec les principes NR",
+	  "isVital": false,
+	  "keystep": "Objectifs projet",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Sp\u00e9cifications",
+	  "name": "D\u00e9terminer l'environnement de production dans lequel le projet sera construit et d\u00e9ploy\u00e9 en accord avec les principes NR",
+	  "isVital": false,
+	  "keystep": "Production",
+	  "categories": ["Recommandation"],
+	  "indicator": "KPIs NR / KPI",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Int\u00e9grer le Num\u00e9rique Responsable dans les objectifs majeurs du projet",
+	  "isVital": true,
+	  "keystep": "M\u00e9thodologie",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Int\u00e9grer le Num\u00e9rique Responsable dans les objectifs majeurs du projet",
+	  "isVital": true,
+	  "keystep": "M\u00e9thodologie",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Int\u00e9grer le Num\u00e9rique Responsable dans les objectifs majeurs du projet",
+	  "isVital": true,
+	  "keystep": "M\u00e9thodologie",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Int\u00e9grer le Num\u00e9rique Responsable dans les objectifs majeurs du projet",
+	  "isVital": false,
+	  "keystep": "Ressources Projet ",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Int\u00e9grer le Num\u00e9rique Responsable dans les objectifs majeurs du projet",
+	  "isVital": false,
+	  "keystep": "Ressources Projet ",
+	  "categories": ["Recommandation"],
+	  "indicator": "Composantes NR / Am\u00e9liorations",
+	  "lifecycle": "Maintenance"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Int\u00e9grer le Num\u00e9rique Responsable dans les objectifs majeurs du projet",
+	  "isVital": false,
+	  "keystep": "Ressources Projet ",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; Arbitr\u00e9s = 75 ; Possibles = 50 ; Non = 0 / 100",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Int\u00e9grer le Num\u00e9rique Responsable dans les objectifs majeurs du projet",
+	  "isVital": false,
+	  "keystep": "Ressources Projet ",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Revalorisation"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Int\u00e9grer le Num\u00e9rique Responsable dans les objectifs majeurs du projet",
+	  "isVital": false,
+	  "keystep": "Ressources Projet ",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Sensibiliser les parties prenantes internes et externes au Num\u00e9rique Responsable",
+	  "isVital": true,
+	  "keystep": "Ressources Projet ",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Sensibilisations NR / Membre \u00e9quipe",
+	  "lifecycle": "N/A"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Sensibiliser les parties prenantes internes et externes au Num\u00e9rique Responsable",
+	  "isVital": false,
+	  "keystep": "M\u00e9thodologie",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Sensibiliser les parties prenantes internes et externes au Num\u00e9rique Responsable",
+	  "isVital": false,
+	  "keystep": "Usages",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Sensibiliser les parties prenantes internes et externes au Num\u00e9rique Responsable",
+	  "isVital": false,
+	  "keystep": "Usages",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Sensibiliser les parties prenantes internes et externes au Num\u00e9rique Responsable",
+	  "isVital": false,
+	  "keystep": "Usages",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Rendre disponible et accessible le service num\u00e9rique au plus grand nombre d'utilisateurs",
+	  "isVital": true,
+	  "keystep": "M\u00e9thodologie",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Rendre disponible et accessible le service num\u00e9rique au plus grand nombre d'utilisateurs",
+	  "isVital": false,
+	  "keystep": "M\u00e9thodologie",
+	  "categories": ["Conseil"],
+	  "indicator": "N/A",
+	  "lifecycle": "N/A"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Rendre disponible et accessible le service num\u00e9rique au plus grand nombre d'utilisateurs",
+	  "isVital": false,
+	  "keystep": "M\u00e9thodologie",
+	  "categories": ["Recommandation"],
+	  "indicator": "N/A",
+	  "lifecycle": "N/A"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Rendre disponible et accessible le service num\u00e9rique au plus grand nombre d'utilisateurs",
+	  "isVital": false,
+	  "keystep": "M\u00e9thodologie",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Rendre disponible et accessible le service num\u00e9rique au plus grand nombre d'utilisateurs",
+	  "isVital": false,
+	  "keystep": "M\u00e9thodologie",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Rendre disponible et accessible le service num\u00e9rique au plus grand nombre d'utilisateurs",
+	  "isVital": false,
+	  "keystep": "M\u00e9thodologie",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Rendre disponible et accessible le service num\u00e9rique au plus grand nombre d'utilisateurs",
+	  "isVital": false,
+	  "keystep": "Usages",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Rendre disponible et accessible le service num\u00e9rique au plus grand nombre d'utilisateurs",
+	  "isVital": false,
+	  "keystep": "Technologie",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Permettre aux personnes en situation de handicap ou porteur de d\u00e9ficiences, d'acc\u00e9der et d'utiliser efficacement le service num\u00e9rique",
+	  "isVital": true,
+	  "keystep": "M\u00e9thodologie",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Permettre aux personnes en situation de handicap ou porteur de d\u00e9ficiences, d'acc\u00e9der et d'utiliser efficacement le service num\u00e9rique",
+	  "isVital": false,
+	  "keystep": "Usages",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "\"Less is More\" : Concentrez vous sur les fonctionnalit\u00e9s essentielles et simplifiez votre interface",
+	  "isVital": true,
+	  "keystep": "UI",
+	  "categories": ["Conseil", "Incontournable"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "\"Less is More\" : Concentrez vous sur les fonctionnalit\u00e9s essentielles et simplifiez votre interface",
+	  "isVital": true,
+	  "keystep": "M\u00e9thodologie",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Validations d'utilisation / Fonctionnalit\u00e9s",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "\"Less is More\" : Concentrez vous sur les fonctionnalit\u00e9s essentielles et simplifiez votre interface",
+	  "isVital": false,
+	  "keystep": "M\u00e9thodologie",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "\"Less is More\" : Concentrez vous sur les fonctionnalit\u00e9s essentielles et simplifiez votre interface",
+	  "isVital": false,
+	  "keystep": "M\u00e9thodologie",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Maintenance"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "\"Less is More\" : Concentrez vous sur les fonctionnalit\u00e9s essentielles et simplifiez votre interface",
+	  "isVital": false,
+	  "keystep": "Technologie",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "\"Less is More\" : Concentrez vous sur les fonctionnalit\u00e9s essentielles et simplifiez votre interface",
+	  "isVital": false,
+	  "keystep": "Usage",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "\"Less is More\" : Concentrez vous sur les fonctionnalit\u00e9s essentielles et simplifiez votre interface",
+	  "isVital": false,
+	  "keystep": "Usage",
+	  "categories": ["Recommandation"],
+	  "indicator": "Volume supprim\u00e9 / Volume des contenus inactifs",
+	  "lifecycle": "Fin de Vie"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "\"Less is More\" : Concentrez vous sur les fonctionnalit\u00e9s essentielles et simplifiez votre interface",
+	  "isVital": false,
+	  "keystep": "Technologie",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "\"Less is More\" : Concentrez vous sur les fonctionnalit\u00e9s essentielles et simplifiez votre interface",
+	  "isVital": false,
+	  "keystep": "UI",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Permettre aux utilisateurs de r\u00e9duire leurs impacts",
+	  "isVital": false,
+	  "keystep": "UI",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Permettre aux utilisateurs de r\u00e9duire leurs impacts",
+	  "isVital": false,
+	  "keystep": "UI",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Permettre aux utilisateurs de r\u00e9duire leurs impacts",
+	  "isVital": false,
+	  "keystep": "UI",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Permettre aux utilisateurs de r\u00e9duire leurs impacts",
+	  "isVital": false,
+	  "keystep": "UI",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Permettre aux utilisateurs de r\u00e9duire leurs impacts",
+	  "isVital": false,
+	  "keystep": "Technologie",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Permettre aux utilisateurs de r\u00e9duire leurs impacts",
+	  "isVital": false,
+	  "keystep": "Usage",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Permettre aux utilisateurs de r\u00e9duire leurs impacts",
+	  "isVital": false,
+	  "keystep": "Usage",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "\"Barebone Iteration\": It\u00e9rer votre solution jusqu'au minimalisme \"acceptable\" par vos utilisateurs",
+	  "isVital": false,
+	  "keystep": "M\u00e9thodologie",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "\"Barebone Iteration\": It\u00e9rer votre solution jusqu'au minimalisme \"acceptable\" par vos utilisateurs",
+	  "isVital": false,
+	  "keystep": "M\u00e9thodologie",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "\"Barebone Iteration\": It\u00e9rer votre solution jusqu'au minimalisme \"acceptable\" par vos utilisateurs",
+	  "isVital": false,
+	  "keystep": "M\u00e9thodologie",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "\"Barebone Iteration\": It\u00e9rer votre solution jusqu'au minimalisme \"acceptable\" par vos utilisateurs",
+	  "isVital": false,
+	  "keystep": "M\u00e9thodologie",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "\"Barebone Iteration\": It\u00e9rer votre solution jusqu'au minimalisme \"acceptable\" par vos utilisateurs",
+	  "isVital": false,
+	  "keystep": "Technologie",
+	  "categories": ["Recommandation"],
+	  "indicator": "Sollicitation des caches / Requ\u00e8tes de recherche",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "\"Barebone Iteration\": It\u00e9rer votre solution jusqu'au minimalisme \"acceptable\" par vos utilisateurs",
+	  "isVital": false,
+	  "keystep": "Usage",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "\"Barebone Iteration\": It\u00e9rer votre solution jusqu'au minimalisme \"acceptable\" par vos utilisateurs",
+	  "isVital": false,
+	  "keystep": "M\u00e9thodologie",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Maintenance"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Ing\u00e9nierie m\u00e9dia : all\u00e9ger au maximum les m\u00e9dias du service num\u00e9rique ( images, animations, contenu ... )",
+	  "isVital": true,
+	  "keystep": "UI",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Media compress\u00e9s / Supports media",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Ing\u00e9nierie m\u00e9dia : all\u00e9ger au maximum les m\u00e9dias du service num\u00e9rique ( images, animations, contenu ... )",
+	  "isVital": true,
+	  "keystep": "UI",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Moins de 3 polices = 100 ; 3-5 polices = 50 ; Plus de 5 = 0 / 100",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Ing\u00e9nierie m\u00e9dia : all\u00e9ger au maximum les m\u00e9dias du service num\u00e9rique ( images, animations, contenu ... )",
+	  "isVital": false,
+	  "keystep": "Technologie",
+	  "categories": ["Recommandation"],
+	  "indicator": "Fonctionnalit\u00e9s analys\u00e9es / Fonctionnalit\u00e9s candidates",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Ing\u00e9nierie m\u00e9dia : all\u00e9ger au maximum les m\u00e9dias du service num\u00e9rique ( images, animations, contenu ... )",
+	  "isVital": false,
+	  "keystep": "Technologie",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Ing\u00e9nierie m\u00e9dia : all\u00e9ger au maximum les m\u00e9dias du service num\u00e9rique ( images, animations, contenu ... )",
+	  "isVital": false,
+	  "keystep": "UI",
+	  "categories": ["Recommandation"],
+	  "indicator": "Fonctionnalit\u00e9s analys\u00e9es / Fonctionnalit\u00e9s candidates",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Ing\u00e9nierie m\u00e9dia : all\u00e9ger au maximum les m\u00e9dias du service num\u00e9rique ( images, animations, contenu ... )",
+	  "isVital": false,
+	  "keystep": "UI",
+	  "categories": ["Recommandation"],
+	  "indicator": "Vid\u00e9os analys\u00e9es / Vid\u00e9os",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Ing\u00e9nierie m\u00e9dia : all\u00e9ger au maximum les m\u00e9dias du service num\u00e9rique ( images, animations, contenu ... )",
+	  "isVital": false,
+	  "keystep": "UI",
+	  "categories": ["Recommandation"],
+	  "indicator": "Images analys\u00e9es / Images",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Valeur : soyez transparent avec vos utilisateurs",
+	  "isVital": false,
+	  "keystep": "M\u00e9thodologie",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Valeur : soyez transparent avec vos utilisateurs",
+	  "isVital": false,
+	  "keystep": "Usage",
+	  "categories": ["Recommandation"],
+	  "indicator": "Interactions analys\u00e9es / Interactions utilisateurs",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Valeur : soyez transparent avec vos utilisateurs",
+	  "isVital": false,
+	  "keystep": "Usage",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Valeur : soyez transparent avec vos utilisateurs",
+	  "isVital": false,
+	  "keystep": "Usage",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Valeur : soyez transparent avec vos utilisateurs",
+	  "isVital": false,
+	  "keystep": "UI",
+	  "categories": ["Recommandation"],
+	  "indicator": "Interactions analys\u00e9es / Interactions utilisateurs",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "Valeur : soyez transparent avec vos utilisateurs",
+	  "isVital": false,
+	  "keystep": "UI",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "\u00a0Valeur: concevez un Service Num\u00e9rique \u00e9thique, en ligne avec vos valeurs",
+	  "isVital": true,
+	  "keystep": "Usage",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "\u00a0Valeur: concevez un Service Num\u00e9rique \u00e9thique, en ligne avec vos valeurs",
+	  "isVital": true,
+	  "keystep": "M\u00e9thodologie",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "\u00a0Valeur: concevez un Service Num\u00e9rique \u00e9thique, en ligne avec vos valeurs",
+	  "isVital": false,
+	  "keystep": "Usage",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "\u00a0Valeur: concevez un Service Num\u00e9rique \u00e9thique, en ligne avec vos valeurs",
+	  "isVital": false,
+	  "keystep": "Usage",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Ux/Ui",
+	  "name": "\u00a0Valeur: concevez un Service Num\u00e9rique \u00e9thique, en ligne avec vos valeurs",
+	  "isVital": false,
+	  "keystep": "Usage",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "Appliquer une d\u00e9marche \u00e9ditoriale pour les contenus",
+	  "isVital": true,
+	  "keystep": "N/A",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Tags analys\u00e9s / Tags Hx",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "Appliquer une d\u00e9marche \u00e9ditoriale pour les contenus",
+	  "isVital": false,
+	  "keystep": "Fournisseur",
+	  "categories": ["Recommandation"],
+	  "indicator": "Engagements NR ou RSE / Prestataires",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "Appliquer une d\u00e9marche \u00e9ditoriale pour les contenus",
+	  "isVital": false,
+	  "keystep": "Responsabilit\u00e9 \u00e9ditoriale",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "Appliquer une d\u00e9marche \u00e9ditoriale pour les contenus",
+	  "isVital": false,
+	  "keystep": "Responsabilit\u00e9 \u00e9ditoriale",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "Appliquer une d\u00e9marche \u00e9ditoriale pour les contenus",
+	  "isVital": false,
+	  "keystep": "Images",
+	  "categories": ["Recommandation"],
+	  "indicator": "Ressources analys\u00e9es / Ressources",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "R\u00e9duire l'empreinte des contenus statiques",
+	  "isVital": true,
+	  "keystep": "Images",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Images compress\u00e9es / Images",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "R\u00e9duire l'empreinte des contenus statiques",
+	  "isVital": false,
+	  "keystep": "Images",
+	  "categories": ["Recommandation"],
+	  "indicator": "Images analys\u00e9es / Images",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "R\u00e9duire l'empreinte des contenus statiques",
+	  "isVital": false,
+	  "keystep": "Images",
+	  "categories": ["Recommandation"],
+	  "indicator": "Images analys\u00e9es / Images",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "R\u00e9duire l'empreinte des contenus statiques",
+	  "isVital": false,
+	  "keystep": "Texte",
+	  "categories": ["Recommandation"],
+	  "indicator": "Images analys\u00e9es / Images",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "R\u00e9duire l'empreinte des contenus statiques",
+	  "isVital": false,
+	  "keystep": "Images",
+	  "categories": ["Recommandation"],
+	  "indicator": "Images analys\u00e9es / Images",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "R\u00e9duire l'empreinte des contenus statiques",
+	  "isVital": false,
+	  "keystep": "Contenus anim\u00e9s",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "R\u00e9duire l'empreinte des contenus statiques",
+	  "isVital": false,
+	  "keystep": "Texte",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "R\u00e9duire l'empreinte des contenus statiques",
+	  "isVital": false,
+	  "keystep": "Texte",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "R\u00e9duire l'empreinte des contenus statiques",
+	  "isVital": false,
+	  "keystep": "Texte",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "R\u00e9duire l'empreinte des contenus statiques",
+	  "isVital": false,
+	  "keystep": "Formulaires",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "R\u00e9duire l'empreinte des contenus statiques",
+	  "isVital": false,
+	  "keystep": "Formulaires",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "R\u00e9duire l'empreinte des contenus statiques",
+	  "isVital": false,
+	  "keystep": "Formulaires",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "R\u00e9duire l'empreinte des contenus statiques",
+	  "isVital": false,
+	  "keystep": "Formulaires",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "R\u00e9duire l'empreinte des contenus statiques",
+	  "isVital": false,
+	  "keystep": "Formulaires",
+	  "categories": ["Recommandation"],
+	  "indicator": "Listes analys\u00e9es / Listes de s\u00e9lections",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "Eviter les contenus actifs, conserver les contenus dynamiques sous contr\u00f4le de l'utilisateur",
+	  "isVital": true,
+	  "keystep": "Vid\u00e9os",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Vid\u00e9os analys\u00e9es / Vid\u00e9os",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "Eviter les contenus actifs, conserver les contenus dynamiques sous contr\u00f4le de l'utilisateur",
+	  "isVital": false,
+	  "keystep": "Contenus anim\u00e9s",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "Eviter les contenus actifs, conserver les contenus dynamiques sous contr\u00f4le de l'utilisateur",
+	  "isVital": false,
+	  "keystep": "Contenus anim\u00e9s",
+	  "categories": ["Recommandation"],
+	  "indicator": "Appels flash supprim\u00e9s / Appels flash",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "Eviter les contenus actifs, conserver les contenus dynamiques sous contr\u00f4le de l'utilisateur",
+	  "isVital": false,
+	  "keystep": "Contenus anim\u00e9s",
+	  "categories": ["Recommandation"],
+	  "indicator": "Contenus analys\u00e9s / Contenus actifs",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "Eviter les contenus actifs, conserver les contenus dynamiques sous contr\u00f4le de l'utilisateur",
+	  "isVital": false,
+	  "keystep": "Contenus anim\u00e9s",
+	  "categories": ["Recommandation"],
+	  "indicator": "Contenus analys\u00e9s / Contenus actifs",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "Eviter les contenus actifs, conserver les contenus dynamiques sous contr\u00f4le de l'utilisateur",
+	  "isVital": false,
+	  "keystep": "Contenus anim\u00e9s",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "Eviter les contenus actifs, conserver les contenus dynamiques sous contr\u00f4le de l'utilisateur",
+	  "isVital": false,
+	  "keystep": "Vid\u00e9os",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "Eviter les contenus actifs, conserver les contenus dynamiques sous contr\u00f4le de l'utilisateur",
+	  "isVital": false,
+	  "keystep": "Vid\u00e9os",
+	  "categories": ["Recommandation"],
+	  "indicator": "Vid\u00e9os analys\u00e9es / Vid\u00e9os",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "Eviter les contenus actifs, conserver les contenus dynamiques sous contr\u00f4le de l'utilisateur",
+	  "isVital": false,
+	  "keystep": "Vid\u00e9os",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "Eviter les contenus actifs, conserver les contenus dynamiques sous contr\u00f4le de l'utilisateur",
+	  "isVital": false,
+	  "keystep": "Vid\u00e9os",
+	  "categories": ["Recommandation"],
+	  "indicator": "Vid\u00e9os analys\u00e9es / Vid\u00e9os",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "Eviter les contenus actifs, conserver les contenus dynamiques sous contr\u00f4le de l'utilisateur",
+	  "isVital": false,
+	  "keystep": "Vid\u00e9os",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "Eviter les contenus actifs, conserver les contenus dynamiques sous contr\u00f4le de l'utilisateur",
+	  "isVital": false,
+	  "keystep": "Sons",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "Eviter les contenus actifs, conserver les contenus dynamiques sous contr\u00f4le de l'utilisateur",
+	  "isVital": false,
+	  "keystep": "Sons/vid\u00e9os",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "Faciliter la perception des contenus par l'utilisateur",
+	  "isVital": false,
+	  "keystep": "Vid\u00e9os",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Fin de Vie"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "Faciliter la perception des contenus par l'utilisateur",
+	  "isVital": false,
+	  "keystep": "Texte",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Fin de Vie"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "Faciliter la perception des contenus par l'utilisateur",
+	  "isVital": false,
+	  "keystep": "Texte",
+	  "categories": ["Recommandation"],
+	  "indicator": "Contenus uniques / Contenus",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "Faciliter la perception des contenus par l'utilisateur",
+	  "isVital": false,
+	  "keystep": "Formulaires",
+	  "categories": ["Recommandation"],
+	  "indicator": "Notifications analys\u00e9es / Notifications",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "Faciliter la perception des contenus par l'utilisateur",
+	  "isVital": false,
+	  "keystep": "Formulaires",
+	  "categories": ["Recommandation"],
+	  "indicator": "Donn\u00e9es valid\u00e9es en local / Donn\u00e9es \"formelles\"",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "Faciliter la perception des contenus par l'utilisateur",
+	  "isVital": false,
+	  "keystep": "UI",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "Faciliter la perception des contenus par l'utilisateur",
+	  "isVital": false,
+	  "keystep": "UI",
+	  "categories": ["Recommandation"],
+	  "indicator": "Actions analys\u00e9es / Actions user",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "Assurer la liaison entre les contenus et usages",
+	  "isVital": true,
+	  "keystep": "T\u00e9l\u00e9chargements",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Documents compress\u00e9s / Documents disponibles",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "Assurer la liaison entre les contenus et usages",
+	  "isVital": false,
+	  "keystep": "SEO",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "Assurer la liaison entre les contenus et usages",
+	  "isVital": false,
+	  "keystep": "Liens hypertexte",
+	  "categories": ["Recommandation"],
+	  "indicator": "Liens valid\u00e9s / Liens",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "Assurer la liaison entre les contenus et usages",
+	  "isVital": false,
+	  "keystep": "Liens hypertexte",
+	  "categories": ["Recommandation"],
+	  "indicator": "Liens valid\u00e9s / Liens",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "Assurer la liaison entre les contenus et usages",
+	  "isVital": false,
+	  "keystep": "Textes",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "Assurer la liaison entre les contenus et usages",
+	  "isVital": false,
+	  "keystep": "Formulaires",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "Assurer la liaison entre les contenus et usages",
+	  "isVital": false,
+	  "keystep": "Formulaires",
+	  "categories": ["Recommandation"],
+	  "indicator": "Informations donn\u00e9es personnelles / Donn\u00e9es personnelles",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "Assurer la liaison entre les contenus et usages",
+	  "isVital": false,
+	  "keystep": "Contenus diffus\u00e9s",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Contenus",
+	  "name": "Assurer la liaison entre les contenus et usages",
+	  "isVital": false,
+	  "keystep": "T\u00e9l\u00e9chargements",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Valider le p\u00e9rim\u00e8tre et la couverture fonctionnelle du projet",
+	  "isVital": false,
+	  "keystep": "User Experience",
+	  "categories": ["Recommandation"],
+	  "indicator": "Fonctionnalit\u00e9s valid\u00e9es / Fonctionnalit\u00e9s",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Valider le p\u00e9rim\u00e8tre et la couverture fonctionnelle du projet",
+	  "isVital": false,
+	  "keystep": "Standards de d\u00e9veloppement",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Valider le p\u00e9rim\u00e8tre et la couverture fonctionnelle du projet",
+	  "isVital": false,
+	  "keystep": "Standards de d\u00e9veloppement",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Valider le p\u00e9rim\u00e8tre et la couverture fonctionnelle du projet",
+	  "isVital": false,
+	  "keystep": "Standards de d\u00e9veloppement",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Valider le p\u00e9rim\u00e8tre et la couverture fonctionnelle du projet",
+	  "isVital": false,
+	  "keystep": "Standards de d\u00e9veloppement",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Valider le p\u00e9rim\u00e8tre et la couverture fonctionnelle du projet",
+	  "isVital": false,
+	  "keystep": "Standards de d\u00e9veloppement",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Revalorisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Valider le p\u00e9rim\u00e8tre et la couverture fonctionnelle du projet",
+	  "isVital": false,
+	  "keystep": "Technologie",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "F\u00e9d\u00e9rer les \u00e9quipes et le public cible",
+	  "isVital": false,
+	  "keystep": "Standards de d\u00e9veloppement",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "F\u00e9d\u00e9rer les \u00e9quipes et le public cible",
+	  "isVital": false,
+	  "keystep": "Standards de d\u00e9veloppement",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "F\u00e9d\u00e9rer les \u00e9quipes et le public cible",
+	  "isVital": false,
+	  "keystep": "Standards de d\u00e9veloppement",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "N/A"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "F\u00e9d\u00e9rer les \u00e9quipes et le public cible",
+	  "isVital": false,
+	  "keystep": "Standards de d\u00e9veloppement",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Utiliser les environnements et outils qui permettent de limiter les impacts",
+	  "isVital": true,
+	  "keystep": "API",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Fonctionnalit\u00e9s analys\u00e9es / Fonctionnalit\u00e9s elligibles",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Utiliser les environnements et outils qui permettent de limiter les impacts",
+	  "isVital": false,
+	  "keystep": "Flux ",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Utiliser les environnements et outils qui permettent de limiter les impacts",
+	  "isVital": false,
+	  "keystep": "API",
+	  "categories": ["Recommandation"],
+	  "indicator": "Donn\u00e9es API analys\u00e9es / Donn\u00e9es API collect\u00e9es",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Utiliser les environnements et outils qui permettent de limiter les impacts",
+	  "isVital": false,
+	  "keystep": "API",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Utiliser les environnements et outils qui permettent de limiter les impacts",
+	  "isVital": false,
+	  "keystep": "Technologie",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Utiliser les environnements et outils qui permettent de limiter les impacts",
+	  "isVital": false,
+	  "keystep": "Technologie",
+	  "categories": ["Recommandation"],
+	  "indicator": "D\u00e9pendances utilis\u00e9es / D\u00e9pendances natives",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Utiliser les environnements et outils qui permettent de limiter les impacts",
+	  "isVital": false,
+	  "keystep": "Technologie",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Utiliser les environnements et outils qui permettent de limiter les impacts",
+	  "isVital": false,
+	  "keystep": "Technologie",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Utiliser les environnements et outils qui permettent de limiter les impacts",
+	  "isVital": false,
+	  "keystep": "Technologie",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Utiliser les environnements et outils qui permettent de limiter les impacts",
+	  "isVital": false,
+	  "keystep": "Technologie",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Utiliser les environnements et outils qui permettent de limiter les impacts",
+	  "isVital": false,
+	  "keystep": "Technologie",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Utiliser les environnements et outils qui permettent de limiter les impacts",
+	  "isVital": false,
+	  "keystep": "R\u00e9seaux",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Maintenance"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "R\u00e9duire les effets d'obsolescence",
+	  "isVital": true,
+	  "keystep": "User exp\u00e9rience ",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "R\u00e9duire les effets d'obsolescence",
+	  "isVital": false,
+	  "keystep": "Cycle de vie",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Maintenance"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "R\u00e9duire les effets d'obsolescence",
+	  "isVital": false,
+	  "keystep": "User exp\u00e9rience ",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "R\u00e9duire les effets d'obsolescence",
+	  "isVital": false,
+	  "keystep": "User exp\u00e9rience ",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Impl\u00e9menter et d\u00e9velopper les fonctionnalit\u00e9s pour limiter les impacts",
+	  "isVital": true,
+	  "keystep": "Standards de d\u00e9veloppement",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Fonctionnalit\u00e9s utilis\u00e9es / Fonctionnalit\u00e9s d\u00e9ploy\u00e9es",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Impl\u00e9menter et d\u00e9velopper les fonctionnalit\u00e9s pour limiter les impacts",
+	  "isVital": false,
+	  "keystep": "Standards de d\u00e9veloppement",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Impl\u00e9menter et d\u00e9velopper les fonctionnalit\u00e9s pour limiter les impacts",
+	  "isVital": false,
+	  "keystep": "Standards de d\u00e9veloppement",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Impl\u00e9menter et d\u00e9velopper les fonctionnalit\u00e9s pour limiter les impacts",
+	  "isVital": false,
+	  "keystep": "Standards de d\u00e9veloppement",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Impl\u00e9menter et d\u00e9velopper les fonctionnalit\u00e9s pour limiter les impacts",
+	  "isVital": false,
+	  "keystep": "User Experience",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Impl\u00e9menter et d\u00e9velopper les fonctionnalit\u00e9s pour limiter les impacts",
+	  "isVital": false,
+	  "keystep": "User Experience",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Revalorisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "S'assurer que l'utilisation du service permet le contr\u00f4le des impacts",
+	  "isVital": false,
+	  "keystep": "Flux ",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "S'assurer que l'utilisation du service permet le contr\u00f4le des impacts",
+	  "isVital": false,
+	  "keystep": "Flux ",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "S'assurer que l'utilisation du service permet le contr\u00f4le des impacts",
+	  "isVital": false,
+	  "keystep": "Flux ",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "S'assurer que l'utilisation du service permet le contr\u00f4le des impacts",
+	  "isVital": false,
+	  "keystep": "Flux ",
+	  "categories": ["Recommandation"],
+	  "indicator": "Fichiers uniques / Fichiers",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "S'assurer que l'utilisation du service permet le contr\u00f4le des impacts",
+	  "isVital": false,
+	  "keystep": "Flux ",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Limiter les utilisations de composants hardware ou capteurs sur les terminaux utilisateurs",
+	  "isVital": false,
+	  "keystep": "Technologie",
+	  "categories": ["Recommandation"],
+	  "indicator": "Capteurs mis en oeuvre \u00e0 la demande / Capteurs r\u00e9f\u00e9renc\u00e9s",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Limiter les utilisations de composants hardware ou capteurs sur les terminaux utilisateurs",
+	  "isVital": false,
+	  "keystep": "Technologie",
+	  "categories": ["Recommandation"],
+	  "indicator": "Capteurs mis en pause hors utilisation / Capteurs r\u00e9f\u00e9renc\u00e9s",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Limiter les utilisations de composants hardware ou capteurs sur les terminaux utilisateurs",
+	  "isVital": false,
+	  "keystep": "Technologie",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Limiter les utilisations de composants hardware ou capteurs sur les terminaux utilisateurs",
+	  "isVital": false,
+	  "keystep": "Technologie",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Limiter les utilisations de composants hardware ou capteurs sur les terminaux utilisateurs",
+	  "isVital": false,
+	  "keystep": "Transferts",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Limiter les utilisations de composants hardware ou capteurs sur les terminaux utilisateurs",
+	  "isVital": false,
+	  "keystep": "User Experience",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Limiter les utilisations de composants hardware ou capteurs sur les terminaux utilisateurs",
+	  "isVital": false,
+	  "keystep": "Transferts",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Limiter les utilisations de composants hardware ou capteurs sur les terminaux utilisateurs",
+	  "isVital": false,
+	  "keystep": "Transferts",
+	  "categories": ["Recommandation"],
+	  "indicator": "Images sans redimmentionnement  / Nombre d'images",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Limiter les utilisations de composants hardware ou capteurs sur les terminaux utilisateurs",
+	  "isVital": false,
+	  "keystep": "Transferts",
+	  "categories": ["Recommandation"],
+	  "indicator": "Fichiers compress\u00e9s / Fichiers \u00e9chang\u00e9s",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Faciliter l'utilisation du service dans de bonnes conditions pour tous les utilisateurs",
+	  "isVital": false,
+	  "keystep": "User Experience",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Faciliter l'utilisation du service dans de bonnes conditions pour tous les utilisateurs",
+	  "isVital": false,
+	  "keystep": "User Experience",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Faciliter l'utilisation du service dans de bonnes conditions pour tous les utilisateurs",
+	  "isVital": false,
+	  "keystep": "User Experience",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Impl\u00e9menter des solutions techniques dont l'impact est le plus faible",
+	  "isVital": true,
+	  "keystep": "UI",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Impl\u00e9menter des solutions techniques dont l'impact est le plus faible",
+	  "isVital": false,
+	  "keystep": "User Experience",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Impl\u00e9menter des solutions techniques dont l'impact est le plus faible",
+	  "isVital": false,
+	  "keystep": "UI",
+	  "categories": ["Recommandation"],
+	  "indicator": "Images analys\u00e9es / Images",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Impl\u00e9menter des solutions techniques dont l'impact est le plus faible",
+	  "isVital": false,
+	  "keystep": "UI",
+	  "categories": ["Recommandation"],
+	  "indicator": "Images analys\u00e9es / Images",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Impl\u00e9menter des solutions techniques dont l'impact est le plus faible",
+	  "isVital": false,
+	  "keystep": "UI",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Impl\u00e9menter des solutions techniques dont l'impact est le plus faible",
+	  "isVital": false,
+	  "keystep": "UI",
+	  "categories": ["Recommandation"],
+	  "indicator": "Images analys\u00e9es / Images",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Impl\u00e9menter des solutions techniques dont l'impact est le plus faible",
+	  "isVital": false,
+	  "keystep": "UI",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Impl\u00e9menter des solutions techniques dont l'impact est le plus faible",
+	  "isVital": false,
+	  "keystep": "UI",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Impl\u00e9menter des solutions techniques dont l'impact est le plus faible",
+	  "isVital": false,
+	  "keystep": "UI",
+	  "categories": ["Recommandation"],
+	  "indicator": "Images analys\u00e9es / Images",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Impl\u00e9menter des solutions techniques dont l'impact est le plus faible",
+	  "isVital": false,
+	  "keystep": "UI",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Impl\u00e9menter des solutions techniques dont l'impact est le plus faible",
+	  "isVital": false,
+	  "keystep": "UI",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Impl\u00e9menter des solutions techniques dont l'impact est le plus faible",
+	  "isVital": false,
+	  "keystep": "UI",
+	  "categories": ["Recommandation"],
+	  "indicator": "Actions sans auto start / Actions user",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Impl\u00e9menter des solutions techniques dont l'impact est le plus faible",
+	  "isVital": false,
+	  "keystep": "UI",
+	  "categories": ["Recommandation"],
+	  "indicator": "Vid\u00e9os analys\u00e9es / Vid\u00e9os",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Impl\u00e9menter des solutions techniques dont l'impact est le plus faible",
+	  "isVital": false,
+	  "keystep": "UI",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Impl\u00e9menter des solutions techniques dont l'impact est le plus faible",
+	  "isVital": false,
+	  "keystep": "UI",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Impl\u00e9menter des solutions techniques dont l'impact est le plus faible",
+	  "isVital": false,
+	  "keystep": "UI",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Impl\u00e9menter des solutions techniques dont l'impact est le plus faible",
+	  "isVital": false,
+	  "keystep": "UI",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Impl\u00e9menter des solutions techniques dont l'impact est le plus faible",
+	  "isVital": false,
+	  "keystep": "UI",
+	  "categories": ["Recommandation"],
+	  "indicator": "Polices analys\u00e9es / Polices",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Impl\u00e9menter des solutions techniques dont l'impact est le plus faible",
+	  "isVital": false,
+	  "keystep": "UI",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Impl\u00e9menter des solutions techniques dont l'impact est le plus faible",
+	  "isVital": false,
+	  "keystep": "UI",
+	  "categories": ["Recommandation"],
+	  "indicator": "Animations analys\u00e9es / Animations",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "Impl\u00e9menter des solutions techniques dont l'impact est le plus faible",
+	  "isVital": false,
+	  "keystep": "User Experience",
+	  "categories": ["Recommandation"],
+	  "indicator": "Animations analys\u00e9es / Animations",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "\u00a0Rechercher la mise en oeuvre de comportements sobres",
+	  "isVital": true,
+	  "keystep": "UI",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Objets analys\u00e9s / Objets dynamiques",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "\u00a0Rechercher la mise en oeuvre de comportements sobres",
+	  "isVital": false,
+	  "keystep": "UI",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "\u00a0Rechercher la mise en oeuvre de comportements sobres",
+	  "isVital": false,
+	  "keystep": "User Experience",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Front-end",
+	  "name": "\u00a0Rechercher la mise en oeuvre de comportements sobres",
+	  "isVital": false,
+	  "keystep": "UI",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "Appliquer une d\u00e9marche qui garantit les aspects NR",
+	  "isVital": false,
+	  "keystep": "Cycle de Vie ",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "Appliquer une d\u00e9marche qui garantit les aspects NR",
+	  "isVital": false,
+	  "keystep": "Design Logiciel NR",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "Appliquer une d\u00e9marche qui garantit les aspects NR",
+	  "isVital": false,
+	  "keystep": "Infrastructure NR",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "Anticiper l'exploitation des services",
+	  "isVital": true,
+	  "keystep": "Cycle de vie",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "Anticiper l'exploitation des services",
+	  "isVital": false,
+	  "keystep": "Infrastructure NR",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "Anticiper l'exploitation des services",
+	  "isVital": false,
+	  "keystep": "Infrastructure NR",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "Anticiper l'exploitation des services",
+	  "isVital": false,
+	  "keystep": "Cycle de vie",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "Anticiper l'exploitation des services",
+	  "isVital": false,
+	  "keystep": "Design Logiciel NR",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "Anticiper l'exploitation des services",
+	  "isVital": false,
+	  "keystep": "Design Logiciel NR",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "G\u00e9rer la vie des donn\u00e9es",
+	  "isVital": false,
+	  "keystep": "Cycle de vie",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Fin de Vie"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "G\u00e9rer la vie des donn\u00e9es",
+	  "isVital": false,
+	  "keystep": "Infrastructure NR",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "G\u00e9rer la vie des donn\u00e9es",
+	  "isVital": false,
+	  "keystep": "Infrastructure NR",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "G\u00e9rer la vie des donn\u00e9es",
+	  "isVital": false,
+	  "keystep": "Cycle de vie",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "G\u00e9rer la vie des donn\u00e9es",
+	  "isVital": false,
+	  "keystep": "Achat NR",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "Contr\u00f4ler et mesurer les impacts",
+	  "isVital": false,
+	  "keystep": "Design Logiciel NR",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "Contr\u00f4ler et mesurer les impacts",
+	  "isVital": false,
+	  "keystep": "Cycle de vie",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "Contr\u00f4ler et mesurer les impacts",
+	  "isVital": false,
+	  "keystep": "Cycle de vie",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "Contr\u00f4ler et mesurer les impacts",
+	  "isVital": false,
+	  "keystep": "Cycle de vie",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "Limiter les volum\u00e9tries dans les \u00e9changes",
+	  "isVital": false,
+	  "keystep": "Design Logiciel NR",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "Limiter les volum\u00e9tries dans les \u00e9changes",
+	  "isVital": false,
+	  "keystep": "Design Logiciel NR",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "Limiter les volum\u00e9tries dans les \u00e9changes",
+	  "isVital": false,
+	  "keystep": "Design Logiciel NR",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "Limiter les volum\u00e9tries dans les \u00e9changes",
+	  "isVital": false,
+	  "keystep": "Infrastructure NR",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "Limiter les volum\u00e9tries dans les \u00e9changes",
+	  "isVital": false,
+	  "keystep": "Design Logiciel NR",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "Limiter les volum\u00e9tries dans les \u00e9changes",
+	  "isVital": false,
+	  "keystep": "Design Logiciel NR",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "D\u00e9finir un mod\u00e8le de production \u00e9volutif",
+	  "isVital": false,
+	  "keystep": "Design Logiciel NR",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Revalorisation"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "D\u00e9finir un mod\u00e8le de production \u00e9volutif",
+	  "isVital": false,
+	  "keystep": "Design Logiciel NR",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Revalorisation"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "D\u00e9finir un mod\u00e8le de production \u00e9volutif",
+	  "isVital": false,
+	  "keystep": "Design Logiciel NR",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "D\u00e9finir un mod\u00e8le de production \u00e9volutif",
+	  "isVital": false,
+	  "keystep": "Design Logiciel",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "D\u00e9finir un mod\u00e8le de production \u00e9volutif",
+	  "isVital": false,
+	  "keystep": "Achat NR",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "Associer les donn\u00e9es, les flux, les applicatifs et la s\u00e9curit\u00e9 pour permettre leur identification et leur tra\u00e7abilit\u00e9",
+	  "isVital": true,
+	  "keystep": "Cycle de vie",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Fin de Vie"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "Associer les donn\u00e9es, les flux, les applicatifs et la s\u00e9curit\u00e9 pour permettre leur identification et leur tra\u00e7abilit\u00e9",
+	  "isVital": false,
+	  "keystep": "Design Logiciel NR",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "Associer les donn\u00e9es, les flux, les applicatifs et la s\u00e9curit\u00e9 pour permettre leur identification et leur tra\u00e7abilit\u00e9",
+	  "isVital": false,
+	  "keystep": "Design Logiciel NR",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "Associer les donn\u00e9es, les flux, les applicatifs et la s\u00e9curit\u00e9 pour permettre leur identification et leur tra\u00e7abilit\u00e9",
+	  "isVital": false,
+	  "keystep": "Design Logiciel",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "Associer les donn\u00e9es, les flux, les applicatifs et la s\u00e9curit\u00e9 pour permettre leur identification et leur tra\u00e7abilit\u00e9",
+	  "isVital": false,
+	  "keystep": "Design Logiciel",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "Anticiper les impacts sur la production",
+	  "isVital": false,
+	  "keystep": "Cycle de vie",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "Anticiper les impacts sur la production",
+	  "isVital": false,
+	  "keystep": "Design Logiciel NR",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "Anticiper les impacts sur la production",
+	  "isVital": false,
+	  "keystep": "Design Logiciel NR",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "Anticiper les impacts sur la production",
+	  "isVital": false,
+	  "keystep": "Design Logiciel NR",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "Anticiper les impacts sur la production",
+	  "isVital": false,
+	  "keystep": "Infrastructure NR",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "Anticiper les impacts sur la production",
+	  "isVital": false,
+	  "keystep": "Design Logiciel NR",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "Anticiper les impacts sur la production",
+	  "isVital": false,
+	  "keystep": "Cycle de vie",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Maintenance"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "Anticiper les impacts sur la production",
+	  "isVital": false,
+	  "keystep": "Design Logiciel NR",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "Anticiper les impacts sur la production",
+	  "isVital": false,
+	  "keystep": "Design Logiciel",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Maintenance"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "Anticiper les impacts sur la production",
+	  "isVital": false,
+	  "keystep": "Design Logiciel",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Revalorisation"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "Anticiper les impacts sur la production",
+	  "isVital": false,
+	  "keystep": "Design Logiciel",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "Anticiper les impacts sur la production",
+	  "isVital": false,
+	  "keystep": "Design Logiciel",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "Anticiper les impacts sur la production",
+	  "isVital": false,
+	  "keystep": "Cycle de vie",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Maintenance"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "D\u00e9finir les objectifs NR du projet et leur ad\u00e9quation dans le contexte op\u00e9rationnel",
+	  "isVital": true,
+	  "keystep": "Design Logiciel",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "D\u00e9finir les objectifs NR du projet et leur ad\u00e9quation dans le contexte op\u00e9rationnel",
+	  "isVital": false,
+	  "keystep": "Cycle de vie",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "N/A"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "D\u00e9finir les objectifs NR du projet et leur ad\u00e9quation dans le contexte op\u00e9rationnel",
+	  "isVital": false,
+	  "keystep": "N/A",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "N/A"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "D\u00e9finir les objectifs NR du projet et leur ad\u00e9quation dans le contexte op\u00e9rationnel",
+	  "isVital": false,
+	  "keystep": "Infrastructure NR",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "D\u00e9finir les objectifs NR du projet et leur ad\u00e9quation dans le contexte op\u00e9rationnel",
+	  "isVital": false,
+	  "keystep": "Cycle de vie",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "D\u00e9finir les objectifs NR du projet et leur ad\u00e9quation dans le contexte op\u00e9rationnel",
+	  "isVital": false,
+	  "keystep": "Cycle de vie",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "D\u00e9finir les objectifs NR du projet et leur ad\u00e9quation dans le contexte op\u00e9rationnel",
+	  "isVital": false,
+	  "keystep": "Cycle de vie",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Maintenance"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "D\u00e9finir les objectifs NR du projet et leur ad\u00e9quation dans le contexte op\u00e9rationnel",
+	  "isVital": false,
+	  "keystep": "Cycle de vie",
+	  "categories": ["Recommandation"],
+	  "indicator": "Oui = 100 ; Partiel = 50 ; Non = 0 / 100",
+	  "lifecycle": "Revalorisation"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "D\u00e9finir les objectifs NR du projet et leur ad\u00e9quation dans le contexte op\u00e9rationnel",
+	  "isVital": false,
+	  "keystep": "Achat NR",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Fin de Vie"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "D\u00e9finir les objectifs NR du projet et leur ad\u00e9quation dans le contexte op\u00e9rationnel",
+	  "isVital": false,
+	  "keystep": "Design Logiciel",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Revalorisation"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "\u00a0Int\u00e9grer les \u00e9quipes dans le projet",
+	  "isVital": false,
+	  "keystep": "Equipes",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "N/A"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "\u00a0Int\u00e9grer les \u00e9quipes dans le projet",
+	  "isVital": false,
+	  "keystep": "Equipes",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "N/A"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "\u00a0Int\u00e9grer les \u00e9quipes dans le projet",
+	  "isVital": false,
+	  "keystep": "Equipes",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "N/A"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "\u00a0Int\u00e9grer les \u00e9quipes dans le projet",
+	  "isVital": false,
+	  "keystep": "Cycle de vie",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "Architecture",
+	  "name": "\u00a0Int\u00e9grer les \u00e9quipes dans le projet",
+	  "isVital": false,
+	  "keystep": "Equipes",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Maintenance"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "R\u00e9duire l'impact des donn\u00e9es de leur stockage et acc\u00e8s",
+	  "isVital": true,
+	  "keystep": "Donn\u00e9es",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "R\u00e9duire l'impact des donn\u00e9es de leur stockage et acc\u00e8s",
+	  "isVital": false,
+	  "keystep": "Donn\u00e9es",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "R\u00e9duire l'impact des donn\u00e9es de leur stockage et acc\u00e8s",
+	  "isVital": false,
+	  "keystep": "Donn\u00e9es",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "R\u00e9duire l'impact des donn\u00e9es de leur stockage et acc\u00e8s",
+	  "isVital": false,
+	  "keystep": "Donn\u00e9es",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "R\u00e9duire l'impact des donn\u00e9es de leur stockage et acc\u00e8s",
+	  "isVital": false,
+	  "keystep": "Donn\u00e9es",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Fin de Vie"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "R\u00e9duire l'impact des donn\u00e9es de leur stockage et acc\u00e8s",
+	  "isVital": false,
+	  "keystep": "Donn\u00e9es",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "R\u00e9duire l'impact des donn\u00e9es de leur stockage et acc\u00e8s",
+	  "isVital": false,
+	  "keystep": "Donn\u00e9es",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "R\u00e9duire l'impact des donn\u00e9es de leur stockage et acc\u00e8s",
+	  "isVital": false,
+	  "keystep": "Donn\u00e9es",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "R\u00e9duire l'impact des donn\u00e9es de leur stockage et acc\u00e8s",
+	  "isVital": false,
+	  "keystep": "Donn\u00e9es",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "R\u00e9duire l'impact des donn\u00e9es de leur stockage et acc\u00e8s",
+	  "isVital": false,
+	  "keystep": "Donn\u00e9es",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "R\u00e9duire l'impact des donn\u00e9es de leur stockage et acc\u00e8s",
+	  "isVital": false,
+	  "keystep": "Donn\u00e9es",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "R\u00e9duire l'impact des donn\u00e9es de leur stockage et acc\u00e8s",
+	  "isVital": false,
+	  "keystep": "Donn\u00e9es",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Fin de Vie"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "R\u00e9duire l'impact des donn\u00e9es de leur stockage et acc\u00e8s",
+	  "isVital": false,
+	  "keystep": "Donn\u00e9es",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "R\u00e9duire l'impact des donn\u00e9es de leur stockage et acc\u00e8s",
+	  "isVital": false,
+	  "keystep": "Donn\u00e9es",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "R\u00e9duire l'impact des donn\u00e9es de leur stockage et acc\u00e8s",
+	  "isVital": false,
+	  "keystep": "Traitement de donn\u00e9es",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Fin de Vie"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "R\u00e9duire l'impact des donn\u00e9es de leur stockage et acc\u00e8s",
+	  "isVital": false,
+	  "keystep": "Traitement de donn\u00e9es",
+	  "categories": ["Recommandation"],
+	  "indicator": "Donn\u00e9es sensibles analys\u00e9es / Donn\u00e9es sensibles",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "R\u00e9duire l'impact des donn\u00e9es de leur stockage et acc\u00e8s",
+	  "isVital": false,
+	  "keystep": "Traitement de donn\u00e9es",
+	  "categories": ["Recommandation"],
+	  "indicator": "Donn\u00e9es analys\u00e9es / Donn\u00e9es collect\u00e9es",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "R\u00e9duire l'impact des donn\u00e9es de leur stockage et acc\u00e8s",
+	  "isVital": false,
+	  "keystep": "Traitement de donn\u00e9es",
+	  "categories": ["Recommandation"],
+	  "indicator": "Donn\u00e9es API analys\u00e9es / Donn\u00e9es API collect\u00e9es",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "R\u00e9duire l'impact des donn\u00e9es de leur stockage et acc\u00e8s",
+	  "isVital": false,
+	  "keystep": "S\u00e9curit\u00e9",
+	  "categories": ["Recommandation"],
+	  "indicator": "Donn\u00e9es sensibles analys\u00e9es / Donn\u00e9es sensibles",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "R\u00e9duire l'impact des donn\u00e9es de leur stockage et acc\u00e8s",
+	  "isVital": false,
+	  "keystep": "Traitement de donn\u00e9es",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Utiliser les composants techniques qui am\u00e9liorent les aspects NR, s\u00e9curit\u00e9 et performance",
+	  "isVital": true,
+	  "keystep": "Qualit\u00e9",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Revalorisation"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Utiliser les composants techniques qui am\u00e9liorent les aspects NR, s\u00e9curit\u00e9 et performance",
+	  "isVital": false,
+	  "keystep": "Performance",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Utiliser les composants techniques qui am\u00e9liorent les aspects NR, s\u00e9curit\u00e9 et performance",
+	  "isVital": false,
+	  "keystep": "Performance",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Utiliser les composants techniques qui am\u00e9liorent les aspects NR, s\u00e9curit\u00e9 et performance",
+	  "isVital": false,
+	  "keystep": "Performance",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Utiliser les composants techniques qui am\u00e9liorent les aspects NR, s\u00e9curit\u00e9 et performance",
+	  "isVital": false,
+	  "keystep": "Performance",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Utiliser les composants techniques qui am\u00e9liorent les aspects NR, s\u00e9curit\u00e9 et performance",
+	  "isVital": false,
+	  "keystep": "Performance",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Utiliser les composants techniques qui am\u00e9liorent les aspects NR, s\u00e9curit\u00e9 et performance",
+	  "isVital": false,
+	  "keystep": "Performance",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Fin de Vie"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Utiliser les composants techniques qui am\u00e9liorent les aspects NR, s\u00e9curit\u00e9 et performance",
+	  "isVital": false,
+	  "keystep": "Performance",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Utiliser les composants techniques qui am\u00e9liorent les aspects NR, s\u00e9curit\u00e9 et performance",
+	  "isVital": false,
+	  "keystep": "Performance",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Utiliser les composants techniques qui am\u00e9liorent les aspects NR, s\u00e9curit\u00e9 et performance",
+	  "isVital": false,
+	  "keystep": "Architecture",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Utiliser les composants techniques qui am\u00e9liorent les aspects NR, s\u00e9curit\u00e9 et performance",
+	  "isVital": false,
+	  "keystep": "Architecture",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Utiliser les composants techniques qui am\u00e9liorent les aspects NR, s\u00e9curit\u00e9 et performance",
+	  "isVital": false,
+	  "keystep": "Architecture",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Utiliser les composants techniques qui am\u00e9liorent les aspects NR, s\u00e9curit\u00e9 et performance",
+	  "isVital": false,
+	  "keystep": "Architecture",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Utiliser les composants techniques qui am\u00e9liorent les aspects NR, s\u00e9curit\u00e9 et performance",
+	  "isVital": false,
+	  "keystep": "S\u00e9curit\u00e9",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Maintenance"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Utiliser les composants techniques qui am\u00e9liorent les aspects NR, s\u00e9curit\u00e9 et performance",
+	  "isVital": false,
+	  "keystep": "S\u00e9curit\u00e9",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Utiliser les composants techniques qui am\u00e9liorent les aspects NR, s\u00e9curit\u00e9 et performance",
+	  "isVital": false,
+	  "keystep": "Traitement de donn\u00e9es",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Utiliser les composants techniques qui am\u00e9liorent les aspects NR, s\u00e9curit\u00e9 et performance",
+	  "isVital": false,
+	  "keystep": "Traitement de donn\u00e9es",
+	  "categories": ["Recommandation"],
+	  "indicator": "Fichiers temporaires surveill\u00e9s / fichiers temporaires",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Limiter la volum\u00e9trie des \u00e9changes ",
+	  "isVital": true,
+	  "keystep": "Flux",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Volume compress\u00e9 / Volume de transfert",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Limiter la volum\u00e9trie des \u00e9changes ",
+	  "isVital": false,
+	  "keystep": "Flux",
+	  "categories": ["Recommandation"],
+	  "indicator": "Donn\u00e9es API analys\u00e9es / Donn\u00e9es API \u00e9chang\u00e9es",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Limiter la volum\u00e9trie des \u00e9changes ",
+	  "isVital": false,
+	  "keystep": "Flux",
+	  "categories": ["Recommandation"],
+	  "indicator": "Requ\u00e8tes analys\u00e9es / Requ\u00e8tes BO",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Limiter la volum\u00e9trie des \u00e9changes ",
+	  "isVital": false,
+	  "keystep": "Flux",
+	  "categories": ["Recommandation"],
+	  "indicator": "Donn\u00e9es API analys\u00e9es / Donn\u00e9es API \u00e9chang\u00e9es",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Utiliser des principes de d\u00e9veloppement qui r\u00e9duisent les impacts",
+	  "isVital": false,
+	  "keystep": "Flux",
+	  "categories": ["Recommandation"],
+	  "indicator": "Notifications analys\u00e9es / Notifications",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Utiliser des principes de d\u00e9veloppement qui r\u00e9duisent les impacts",
+	  "isVital": false,
+	  "keystep": "UI",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Utiliser des principes de d\u00e9veloppement qui r\u00e9duisent les impacts",
+	  "isVital": false,
+	  "keystep": "Cycle de vie",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Utiliser des principes de d\u00e9veloppement qui r\u00e9duisent les impacts",
+	  "isVital": false,
+	  "keystep": "Cycle de vie",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "N/A"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Utiliser des principes de d\u00e9veloppement qui r\u00e9duisent les impacts",
+	  "isVital": false,
+	  "keystep": "Qualit\u00e9",
+	  "categories": ["Recommandation"],
+	  "indicator": "Lignes analys\u00e9es / Lignes de code",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Utiliser des principes de d\u00e9veloppement qui r\u00e9duisent les impacts",
+	  "isVital": false,
+	  "keystep": "Qualit\u00e9",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Utiliser des principes de d\u00e9veloppement qui r\u00e9duisent les impacts",
+	  "isVital": false,
+	  "keystep": "Qualit\u00e9",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Utiliser des principes de d\u00e9veloppement qui r\u00e9duisent les impacts",
+	  "isVital": false,
+	  "keystep": "Cycle de vie",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Utiliser des principes de d\u00e9veloppement qui r\u00e9duisent les impacts",
+	  "isVital": false,
+	  "keystep": "Cycle de vie",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Utiliser des principes de d\u00e9veloppement qui r\u00e9duisent les impacts",
+	  "isVital": false,
+	  "keystep": "Cycle de vie",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Maintenance"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Contr\u00f4ler les aspects r\u00e9glementaires",
+	  "isVital": false,
+	  "keystep": "Conformit\u00e9",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Contr\u00f4ler les aspects r\u00e9glementaires",
+	  "isVital": false,
+	  "keystep": "Conformit\u00e9",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Contr\u00f4ler les aspects r\u00e9glementaires",
+	  "isVital": false,
+	  "keystep": "Conformit\u00e9",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Contr\u00f4ler les aspects r\u00e9glementaires",
+	  "isVital": false,
+	  "keystep": "Conformit\u00e9",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Contr\u00f4ler les aspects r\u00e9glementaires",
+	  "isVital": false,
+	  "keystep": "Conformit\u00e9",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Contr\u00f4ler les aspects r\u00e9glementaires",
+	  "isVital": false,
+	  "keystep": "Conformit\u00e9",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Contr\u00f4ler les aspects r\u00e9glementaires",
+	  "isVital": false,
+	  "keystep": "Conformit\u00e9",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Mettre en place une m\u00e9thodologie qui favorise la prise en compte des aspects NR",
+	  "isVital": true,
+	  "keystep": "Cycle de vie",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Fonctionnalit\u00e9s utilis\u00e9es / Fonctionnalit\u00e9s d\u00e9ploy\u00e9es",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Mettre en place une m\u00e9thodologie qui favorise la prise en compte des aspects NR",
+	  "isVital": false,
+	  "keystep": "Cycle de vie",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "N/A"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Mettre en place une m\u00e9thodologie qui favorise la prise en compte des aspects NR",
+	  "isVital": false,
+	  "keystep": "Cycle de vie",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Mettre en place une m\u00e9thodologie qui favorise la prise en compte des aspects NR",
+	  "isVital": false,
+	  "keystep": "Cycle de vie",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Mettre en place une m\u00e9thodologie qui favorise la prise en compte des aspects NR",
+	  "isVital": false,
+	  "keystep": "Architecture",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Mettre en place une m\u00e9thodologie qui favorise la prise en compte des aspects NR",
+	  "isVital": false,
+	  "keystep": "Architecture",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Mettre en place une m\u00e9thodologie qui favorise la prise en compte des aspects NR",
+	  "isVital": false,
+	  "keystep": "Architecture",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Mettre en place une m\u00e9thodologie qui favorise la prise en compte des aspects NR",
+	  "isVital": false,
+	  "keystep": "Architecture",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Fin de Vie"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Mettre en place une m\u00e9thodologie qui favorise la prise en compte des aspects NR",
+	  "isVital": false,
+	  "keystep": "Architecture",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Mettre en place une m\u00e9thodologie qui favorise la prise en compte des aspects NR",
+	  "isVital": false,
+	  "keystep": "Architecture",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Mettre en place une m\u00e9thodologie qui favorise la prise en compte des aspects NR",
+	  "isVital": false,
+	  "keystep": "Cycle de vie",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Mettre en place une m\u00e9thodologie qui favorise la prise en compte des aspects NR",
+	  "isVital": false,
+	  "keystep": "Cycle de vie",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Conception"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Mettre en place une m\u00e9thodologie qui favorise la prise en compte des aspects NR",
+	  "isVital": false,
+	  "keystep": "Cycle de vie",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "Back-end",
+	  "name": "Mettre en place une m\u00e9thodologie qui favorise la prise en compte des aspects NR",
+	  "isVital": false,
+	  "keystep": "Cycle de vie",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Revalorisation"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "R\u00e9duire l'impact de l'h\u00e9bergement",
+	  "isVital": true,
+	  "keystep": "Localisation",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "R\u00e9duire l'impact de l'h\u00e9bergement",
+	  "isVital": true,
+	  "keystep": "Energie",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "PUE <= 1,2 = 100 ; PUE 1,2-1,4 = 75; PUE 14-1,6 = 50 ; PUE 1,6-1,8 = 25 ; PUE > 1,8 = 0 / 100",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "R\u00e9duire l'impact de l'h\u00e9bergement",
+	  "isVital": false,
+	  "keystep": "Localisation",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "R\u00e9duire l'impact de l'h\u00e9bergement",
+	  "isVital": false,
+	  "keystep": "Localisation",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "R\u00e9duire l'impact de l'h\u00e9bergement",
+	  "isVital": false,
+	  "keystep": "Localisation",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "R\u00e9duire l'impact de l'h\u00e9bergement",
+	  "isVital": false,
+	  "keystep": "Localisation",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "R\u00e9duire l'impact de l'h\u00e9bergement",
+	  "isVital": false,
+	  "keystep": "Localisation",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "R\u00e9duire l'impact de l'h\u00e9bergement",
+	  "isVital": false,
+	  "keystep": "Energie",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "R\u00e9duire l'impact de l'h\u00e9bergement",
+	  "isVital": false,
+	  "keystep": "Energie",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "R\u00e9duire l'impact de l'h\u00e9bergement",
+	  "isVital": false,
+	  "keystep": "Energie",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "R\u00e9duire l'impact de l'h\u00e9bergement",
+	  "isVital": false,
+	  "keystep": "Energie",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "R\u00e9duire l'impact de l'h\u00e9bergement",
+	  "isVital": false,
+	  "keystep": "Energie",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "R\u00e9duire l'impact de l'h\u00e9bergement",
+	  "isVital": false,
+	  "keystep": "Energie",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "R\u00e9duire l'impact de l'h\u00e9bergement",
+	  "isVital": false,
+	  "keystep": "Energie",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "R\u00e9duire l'impact de l'h\u00e9bergement",
+	  "isVital": false,
+	  "keystep": "Energie",
+	  "categories": ["Recommandation"],
+	  "indicator": "WUE <= 1L/kwh = 100 ; WUE > 1L/kwh = 0 / 100",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "R\u00e9duire l'impact de l'h\u00e9bergement",
+	  "isVital": false,
+	  "keystep": "Energie",
+	  "categories": ["Recommandation"],
+	  "indicator": "Oui = 100 ; En cours = 50 : Pr\u00e9vu = 25 : Non = 0 / 100",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "Associer les aspects humains et techniques",
+	  "isVital": false,
+	  "keystep": "Social",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "Associer les aspects humains et techniques",
+	  "isVital": false,
+	  "keystep": "Localisation",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "Associer les aspects humains et techniques",
+	  "isVital": false,
+	  "keystep": "Localisation",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "Associer les aspects humains et techniques",
+	  "isVital": false,
+	  "keystep": "Social",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "Associer les aspects humains et techniques",
+	  "isVital": false,
+	  "keystep": "Social",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "Associer les aspects humains et techniques",
+	  "isVital": false,
+	  "keystep": "Social",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "Adapter l'utilisation des \u00e9quipements techniques aux besoins",
+	  "isVital": true,
+	  "keystep": "Syst\u00e8mes (software)",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Taux utilisation VM > 60 = 100 ; 60-40 = 50 ; < 40 = 0 / 100",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "Adapter l'utilisation des \u00e9quipements techniques aux besoins",
+	  "isVital": false,
+	  "keystep": "Energie",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "Adapter l'utilisation des \u00e9quipements techniques aux besoins",
+	  "isVital": false,
+	  "keystep": "Syst\u00e8mes (software)",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "Adapter l'utilisation des \u00e9quipements techniques aux besoins",
+	  "isVital": false,
+	  "keystep": "Syst\u00e8mes (software)",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "Adapter l'utilisation des \u00e9quipements techniques aux besoins",
+	  "isVital": false,
+	  "keystep": "Syst\u00e8mes (software)",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "Adapter l'utilisation des \u00e9quipements techniques aux besoins",
+	  "isVital": false,
+	  "keystep": "Syst\u00e8mes (software)",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "Adapter l'utilisation des \u00e9quipements techniques aux besoins",
+	  "isVital": false,
+	  "keystep": "Syst\u00e8mes (software)",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "Adapter l'utilisation des \u00e9quipements techniques aux besoins",
+	  "isVital": false,
+	  "keystep": "Syst\u00e8mes (software)",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "Adapter l'utilisation des \u00e9quipements techniques aux besoins",
+	  "isVital": false,
+	  "keystep": "Syst\u00e8mes (software)",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "Adapter l'utilisation des \u00e9quipements techniques aux besoins",
+	  "isVital": false,
+	  "keystep": "Mat\u00e9riel (hardware)",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "Adapter l'utilisation des \u00e9quipements techniques aux besoins",
+	  "isVital": false,
+	  "keystep": "Mat\u00e9riel (hardware)",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Fin de Vie"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "Adapter l'utilisation des \u00e9quipements techniques aux besoins",
+	  "isVital": false,
+	  "keystep": "Mat\u00e9riel (hardware)",
+	  "categories": ["Recommandation"],
+	  "indicator": "Formalis\u00e9s = 100 ; pr\u00e9vus = 75 ; Identifi\u00e9s = 50 ; Non = 0 / 100",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "Suivre les impacts de l'h\u00e9bergeur",
+	  "isVital": true,
+	  "keystep": "Energie",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Oui = 100 ; Partiel = 50 ; Non = 0 / 100",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "Suivre les impacts de l'h\u00e9bergeur",
+	  "isVital": true,
+	  "keystep": "Syst\u00e8mes (software)",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Oui = 100 ; Partiel = 50 ; Non = 0 / 100",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "Suivre les impacts de l'h\u00e9bergeur",
+	  "isVital": true,
+	  "keystep": "Mat\u00e9riel (hardware)",
+	  "categories": ["Recommandation", "Incontournable"],
+	  "indicator": "Oui = 100 ; Partiel = 50 ; Non = 0 / 100",
+	  "lifecycle": "Fin de Vie"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "Suivre les impacts de l'h\u00e9bergeur",
+	  "isVital": false,
+	  "keystep": "Energie",
+	  "categories": ["Recommandation"],
+	  "indicator": "Oui = 100 ; Partiel = 50 ; Non = 0 / 100",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "Suivre les impacts de l'h\u00e9bergeur",
+	  "isVital": false,
+	  "keystep": "Energie",
+	  "categories": ["Recommandation"],
+	  "indicator": "Oui = 100 ; Partiel = 50 ; Non = 0 / 100",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "Suivre les impacts de l'h\u00e9bergeur",
+	  "isVital": false,
+	  "keystep": "Energie",
+	  "categories": ["Recommandation"],
+	  "indicator": "Oui = 100 ; Partiel = 50 ; Non = 0 / 100",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "Suivre les impacts de l'h\u00e9bergeur",
+	  "isVital": false,
+	  "keystep": "Social",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "Suivre les impacts de l'h\u00e9bergeur",
+	  "isVital": false,
+	  "keystep": "Social",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "Suivre les impacts de l'h\u00e9bergeur",
+	  "isVital": false,
+	  "keystep": "Mat\u00e9riel (hardware)",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "Suivre les impacts de l'h\u00e9bergeur",
+	  "isVital": false,
+	  "keystep": "Mat\u00e9riel (hardware)",
+	  "categories": ["Recommandation"],
+	  "indicator": "Oui = 100 ; Partiel = 50 ; Non = 0 / 100",
+	  "lifecycle": "Maintenance"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "Suivre les impacts de l'h\u00e9bergeur",
+	  "isVital": false,
+	  "keystep": "Mat\u00e9riel (hardware)",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Fin de Vie"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "Suivre les impacts de l'h\u00e9bergeur",
+	  "isVital": false,
+	  "keystep": "Mat\u00e9riel (hardware)",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "Suivre les impacts de l'h\u00e9bergeur",
+	  "isVital": false,
+	  "keystep": "Mat\u00e9riel (hardware)",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "Garder la coh\u00e9rence de positionnement entre les besoins et les choix d'h\u00e9bergement",
+	  "isVital": false,
+	  "keystep": "Energie",
+	  "categories": ["Recommandation"],
+	  "indicator": "Oui = 100 ; Partiel = 50 ; Non = 0 / 100",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "Garder la coh\u00e9rence de positionnement entre les besoins et les choix d'h\u00e9bergement",
+	  "isVital": false,
+	  "keystep": "Social",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "Garder la coh\u00e9rence de positionnement entre les besoins et les choix d'h\u00e9bergement",
+	  "isVital": false,
+	  "keystep": "Social",
+	  "categories": ["Recommandation"],
+	  "indicator": "Oui = 100 ; Partiel = 50 ; Non = 0 / 100",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "Garder la coh\u00e9rence de positionnement entre les besoins et les choix d'h\u00e9bergement",
+	  "isVital": false,
+	  "keystep": "Social",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Revalorisation"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "Garder la coh\u00e9rence de positionnement entre les besoins et les choix d'h\u00e9bergement",
+	  "isVital": false,
+	  "keystep": "Social",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "D\u00e9ploiement"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "Garder la coh\u00e9rence de positionnement entre les besoins et les choix d'h\u00e9bergement",
+	  "isVital": false,
+	  "keystep": "Social",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "Garder la coh\u00e9rence de positionnement entre les besoins et les choix d'h\u00e9bergement",
+	  "isVital": false,
+	  "keystep": "Social",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "D\u00e9finir les enjeux et fonctionnalit\u00e9s du projet",
+	  "isVital": false,
+	  "keystep": "S\u00e9curit\u00e9",
+	  "categories": ["Recommandation"],
+	  "indicator": "Oui = 100 ; Partiel = 50 ; Non = 0 / 100",
+	  "lifecycle": "R\u00e9alisation"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "D\u00e9finir les enjeux et fonctionnalit\u00e9s du projet",
+	  "isVital": false,
+	  "keystep": "S\u00e9curit\u00e9",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "D\u00e9finir les enjeux et fonctionnalit\u00e9s du projet",
+	  "isVital": false,
+	  "keystep": "S\u00e9curit\u00e9",
+	  "categories": ["Recommandation"],
+	  "indicator": "Oui = 100 ; Partiel = 50 ; Non = 0 / 100",
+	  "lifecycle": "Acquisition"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "D\u00e9finir les enjeux et fonctionnalit\u00e9s du projet",
+	  "isVital": false,
+	  "keystep": "S\u00e9curit\u00e9",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "D\u00e9finir les enjeux et fonctionnalit\u00e9s du projet",
+	  "isVital": false,
+	  "keystep": "S\u00e9curit\u00e9",
+	  "categories": ["Conseil"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "D\u00e9finir les enjeux et fonctionnalit\u00e9s du projet",
+	  "isVital": false,
+	  "keystep": "S\u00e9curit\u00e9",
+	  "categories": ["Recommandation"],
+	  "indicator": "Oui = 100 ; Partiel = 50 ; Non = 0 / 100",
+	  "lifecycle": "Maintenance"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "D\u00e9finir les enjeux et fonctionnalit\u00e9s du projet",
+	  "isVital": false,
+	  "keystep": "Social",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Utilisation"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "D\u00e9finir les enjeux et fonctionnalit\u00e9s du projet",
+	  "isVital": false,
+	  "keystep": "Social",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Administration"
+	},
+	{
+	  "family": "H\u00e9bergement",
+	  "name": "D\u00e9finir les enjeux et fonctionnalit\u00e9s du projet",
+	  "isVital": false,
+	  "keystep": "Social",
+	  "categories": ["Recommandation"],
+	  "indicator": " / ",
+	  "lifecycle": "Revalorisation"
+	}
+  ]
