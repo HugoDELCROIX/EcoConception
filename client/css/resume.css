@@ -27,11 +27,15 @@ h1 {
     text-align: center;
 }
 
-#lcn{
+.grouped-practicies{
     position: absolute;
     top: 20% !important;
+    left: 15%;
+
+}
+.group-header{
     width: 300px;
-    height: 40px;
+    height: 30px;
     border: none 1px;
     border-radius: 10px;
     background: #534340;
@@ -39,11 +43,13 @@ h1 {
     margin-left: 0px;
     margin-right: 0px;
     text-align: center;
-    left: 15%;
+    color: white;
 }
 
-.group-body{
-    position: absolute;
-    top: 30%;
-    left: 15%;
+.table-title{
+    font-weight: bold;
 }
+
+td {
+    text-align: center;
+  }
