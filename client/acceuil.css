@@ -69,11 +69,11 @@ form{
 	justify-content: center; 
 	flex-wrap : wrap; 
   width: 25%;
-	height: 30%;
+  font-size: 15px;
 	border: none 1px;
 	border-radius: 20px;
 	background: #534340; 
- 	margin : 0px 15px 15px ;  
+  margin : 2% 2%;   
 	padding : 15px ;
 }
 
@@ -90,19 +90,16 @@ form{
   width: 100%;
 }
 
-h2{
-  margin: 10px;
-  text-align: left;
-}
-
-p{
-  color: white; 
-}
-
 #cat { 
 	display:flex;
 	justify-content: center; 
 	flex-wrap : wrap; 
+}
+
+.clique p{
+  background-color: red;
+  color: white; 
+  max-width: 90%;
 }
 
 .selection{
