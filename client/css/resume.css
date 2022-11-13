@@ -1,61 +1,71 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
-
-* {
-    margin: 0;
+body{
+    font-family: 'Montserrat', sans-serif;
 }
 
-body {
-    background-color: #f9f9f9;
-}
-
-/* Style Header */
-header {
-    font-family: "Montserrat", sans-serif;
-    color: #f9f9f9;
-    background-color: #42855b;
-    height: 110px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 30px 0;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 12px;
-    justify-content: space-between;
-}
-
-
-h1 {
-    text-align: center;
-}
-
-.grouped-practicies{
-    position: absolute;
-    top: 20% !important;
-    left: 15%;
-
-}
 .group-header{
-    width: 300px;
-    height: 40px;
-    border: none 1px;
-    border-radius: 7px;
-    background: #534340;
-    padding-top: 10px;
-    margin-left: 0px;
-    margin-right: 0px;
-    text-align: center;
-    color: white;
-    font-size: 1.875em;
+    margin: auto;
+    margin-top: 20px;
+    width: fit-content;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #F9F9F9;
+    font-weight: 900;
+    padding: 20px;
+    background-color: #534340;
 }
 
 table{
-    border-spacing: 40px 1rem;
+    width: 70%;
+    border-collapse: collapse;
+    margin: 50px auto;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
-.table-title{
-    font-weight: bold;
-    font-size: 1.2em;
+table thead tr{
+    background-color: #534340;
+    color: #ffffff;
+    text-align: left;
 }
 
-td {
-    text-align: center;
-  }
+table th, table td{
+    padding: 12px 15px;
+}
+
+table tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+
+table tbody tr:last-of-type{
+    border-bottom: 2px solid #009879;
+}
+
+.link-panier{
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: #42855b;
+    width: 150px;
+    padding: 15px;
+    border-radius: 15px;
+    border: #28593a solid 2px;
+    text-decoration: none;
+    color: #F9F9F9;
+    font-weight: 900;
+    transition: 0.4s;
+}
+
+.link-panier:hover{
+    border: black solid 2px;
+    background-color: #28593a;
+}
+
+.link-panier img{
+    width: 20px;
+}
