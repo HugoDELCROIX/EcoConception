@@ -70,20 +70,27 @@ header {
     background-color: #534340;
 }
 
-.container-panier button {
+.export-link{
     display: flex;
     align-items: center;
-    width: 30%;
+    width: fit-content;
     margin: auto;
     background-color: #42855B;
     border-radius: 10px;
-    border: none;
+    border: transparent solid 2px;
     padding: 10px;
     color: #F9F9F9;
-    font-weight: 900;
+    text-decoration: none;
+    font-weight: 900;  
+    cursor: pointer;
+    transition: 0.4s;
 }
 
-/* Style Export */
+.export-link:hover{
+    border: #F9F9F9 solid 2px;
+}
+
+/* Style Export
 
 table{
     width: 70%;
@@ -115,4 +122,4 @@ table tbody tr:nth-of-type(even){
 
 table tbody tr:last-of-type{
     border-bottom: 2px solid #009879;
-}
+} */
