@@ -2,56 +2,140 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Votre Panier</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Votre Panier</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/panier.css">
+
+  <script src="./script/cart.js" defer></script>
 </head>
 
 <body>
-    <header>
+  <header>
 
-        <p>Design4Green - Équipe 2</p>
+    <p>Design4Green - Équipe 2</p>
 
-        <h1>Panier</h1>
+    <h1>Panier</h1>
 
-        <div class="container-nav">
-            <a class="icon-text" href="./resume.php">
-                <img src="./assets/images/book.svg" alt="book-icon" class="icon">
-                <p>Résumé</p>
-            </a>
-            <a class="icon-text" href="./panier.php">
-                <img src="./assets/images/cart.svg" alt="cart-icon" class="icon">
-                <p>Panier</p>
-            </a>
-        </div>
+    <div class="container-nav">
+      <a class="icon-text" href="./resume.php">
+        <img src="./assets/images/book.svg" alt="book-icon" class="icon">
+        <p>Résumé</p>
+      </a>
+      <a class="icon-text" href="./panier.php">
+        <img src="./assets/images/cart.svg" alt="cart-icon" class="icon">
+        <p>Panier</p>
+      </a>
+    </div>
 
-    </header>
+  </header>
 
-    <div class="container-panier">
-        <h2>Export en PDF</h2>
-
-        <hr>
-
-        <div>
-            <p>N/A : <span id="N/A"></span> pratiques</p>
-            <p>Maintenance: <span id="Maintenance"></span> pratiques</p>
-            <p>Conception : <span id="Conception"></span> pratiques</p>
-            <p>Administration : <span id="Administration"></span> pratiques</p>
-            <p>Utilisation : <span id="Utilisation"></span> pratiques</p>
-            <p>Réalisation : <span id="Réalisation"></span> pratiques</p>
-            <p>Fin de vie : <span id="Fin de Vie"></span> pratiques</p>
-            <p>Acquisition : <span id="Acquisition"></span> pratiques</p>
-            <p>Déploiement : <span id="Déploiement"></span> pratiques</p>
-            <p>Revalorisation : <span id="Revalorisation"></span> pratiques</p>
-
-        </div>
-
-        <a href="export.html" target="_blank" class="export-link"><img src="./assets/images/export.svg" alt="export-icon" class="icon"> Voir le détail du Panier</a>
+  <div class="container-panier">
+    <h2>Exporter le rapport</h2>
+    <hr>
+    <div id="review-container">
 
     </div>
-    <script src="./script/panier.js"></script>
+    <button href="export.html" id="export-btn">
+      <img src="./assets/images/export.svg" alt="export-icon" class="icon">
+      Exporter
+    </button>
+
+    <template id="export-layout">
+
+      <head>
+        <title>Rapport</title>
+      </head>
+
+      <body>
+        <style>
+          body {
+            margin: 0;
+            padding: 0;
+          }
+
+          header {
+            font-family: Arial, sans-serif;
+            background-color: #42855b;
+            height: 110px;
+            color: #f9f9f9;
+            padding: 0 30px 0;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 42px;
+          }
+
+          table {
+            width: 70%;
+            border-collapse: collapse;
+            margin: 50px auto;
+            font-size: 0.9em;
+            font-family: sans-serif;
+            min-width: 400px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+          }
+
+          table thead tr {
+            background-color: #009879;
+            color: #ffffff;
+            text-align: left;
+          }
+
+          table th,
+          table td {
+            padding: 12px 15px;
+          }
+
+          table tbody tr {
+            border-bottom: 1px solid #dddddd;
+          }
+
+          table tbody tr:nth-of-type(even) {
+            background-color: #f3f3f3;
+          }
+
+          table tbody tr:last-of-type {
+            border-bottom: 2px solid #009879;
+          }
+
+          .container-panier button {
+            display: flex;
+            align-items: center;
+            width: 30%;
+            margin: auto;
+            background-color: #42855b;
+            border-radius: 10px;
+            border: none;
+            padding: 10px;
+            color: #f9f9f9;
+            font-weight: 900;
+          }
+        </style>
+        <header>
+          Votre export
+        </header>
+        <table>
+          <thead>
+            <tr>
+              <th>Cycle de vie</th>
+              <th>Crtitère</th>
+              <th>Étape clé</th>
+              <th>Indicateur</th>
+            </tr>
+          </thead>
+          <tbody>
+
+          </tbody>
+        </table>
+      </body>
+    </template>
+
+  </div>
 </body>
 
 </html>
