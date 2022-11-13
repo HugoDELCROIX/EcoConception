@@ -1,0 +1,122 @@
+
+#recherche{
+  display:flex;
+	justify-content: center; 
+	flex-wrap : wrap; 
+}
+
+  
+  .deroulant {
+    position: relative;
+    display: inline-block;
+  }
+  select {
+    background-color: #42855B;
+    height: 40px;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+  }
+
+#familiesSelector option {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+input[type=text]{
+  padding: 6px;
+  margin-top: 8px;
+  border-color: #42855B;
+  float: center; 
+}
+
+form{
+  float: center; 
+}
+
+.place .deroulant{
+  float: left; 
+}
+.place{
+  padding:20px;
+}
+
+
+.barre{
+  position: relative;
+  display:flex;
+  margin :auto; 
+	justify-content: center; 
+	flex-wrap : wrap; 
+}
+
+.barre button{
+  float: center;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #42855B;
+  border-color: #42855B;
+  cursor: pointer;
+}
+
+.place{
+  position: relative;
+  display:flex;
+	flex-wrap : wrap; 
+
+}
+
+.clique {
+  position: relative;
+  display:flex;
+	justify-content: center; 
+	flex-wrap : wrap; 
+  width: 200px;
+  font-size: 15px;
+	border: none 1px;
+	border-radius: 20px;
+	background: #534340; 
+  margin : 2% 2%;   
+	padding : 15px ;
+}
+
+.clique hr{
+    width: 80%;
+    margin: 8px auto;
+}
+
+.clique p:first-child{
+  text-align: center;
+}
+
+.titre{
+  width: 100%;
+}
+
+#cat { 
+	display:flex;
+	justify-content: center; 
+	flex-wrap : wrap; 
+}
+
+.clique p{
+  color: white; 
+  max-width: 90%;
+}
+
+.selection{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.plus{
+  width: 50%; 
+}
+
