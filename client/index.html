@@ -1,59 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./css/acceuil.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Selection des bonnes pratiques</title>
-    
-    <script src="./script/index.js" async defer></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./css/acceuil.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Selection des bonnes pratiques</title>
+
+  <script src="./script/index.js" async defer></script>
 </head>
 
 <body>
-    <header>
-        <p>Design4Green - Équipe 2</p>
+  <header>
+    <p>Design4Green - Équipe 2</p>
 
-        <h1>Selection des bonnes pratiques</h1>
+    <h1>Selection des bonnes pratiques</h1>
 
-        <div class="container-nav">
-            <a class="icon-text" href="./resume.php">
-                <img src="./assets/images/book.svg" alt="book-icon" class="icon">
-                <p>Résumé</p>
-            </a>
-            <a class="icon-text" href="./panier.php">
-                <img src="./assets/images/cart.svg" alt="cart-icon" class="icon">
-                <p>Panier</p>
-            </a>
-        </div>
-    </header>
-    <section class="recherche">
-        <div class="place">
-            <div class="deroulant">
-                <select name="families" id="familiesSelector">
-                    <option>Catégorie</option>
-                    <option>Catégorie</option>
-                </select>
-            </div>
-            <div class="barre">
-                <form action="#">
-                    <input type="text" placeholder="Rechercher une bonne pratique..." name="search" size=35px>
-                    <button type="submit" class="barre-search" >Recherche</button>
-                </form>
-            </div>
-        </div>
-    </section>
-    <section id="cat">
-        <div class="clique">
-            <div class="titre">
-                <p>Categorie </p>
-            </div>
-            <hr>
-            <p>Le télétravail est-il autorisé, sans limites, aux collaborateurs qui le souhaitent et dont l'activité le permet ? 
-            </p>
-            <button class="selection"><img src="./assets/images/plus.svg" alt="plus-icon" class="plus"></button> 
-        </div>
-    </section>
+    <div class="container-nav">
+      <a class="icon-text" href="./resume.php">
+        <img src="./assets/images/book.svg" alt="book-icon" class="icon">
+        <p>Résumé</p>
+      </a>
+      <a class="icon-text" href="./panier.php">
+        <img src="./assets/images/cart.svg" alt="cart-icon" class="icon">
+        <p>Panier</p>
+      </a>
+    </div>
+  </header>
+  <section class="recherche">
+    <div class="place">
+      <div class="deroulant">
+        <select name="families" id="familiesSelector">
+          <option>Catégorie</option>
+          <option>Catégorie</option>
+        </select>
+      </div>
+      <div class="barre">
+        <form action="#">
+          <input type="text" placeholder="Rechercher une bonne pratique..." name="search" size=35px>
+          <button type="submit" class="barre-search">Recherche</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <section id="practicies-container">
+    <div class="clique">
+      <div class="titre">
+        <p>Categorie </p>
+      </div>
+      <hr>
+      <p>Le télétravail est-il autorisé, sans limites, aux collaborateurs qui le souhaitent et dont l'activité le permet
+        ?
+      </p>
+      <button class="selection"><img src="./assets/images/plus.svg" alt="plus-icon" class="plus"></button>
+    </div>
+  </section>
+  <section id="pagination-container"></section>
 </body>
+
 </html>
