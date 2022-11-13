@@ -1,0 +1,40 @@
+/* Style panier.php */
+
+.container-panier {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #f9f9f9;
+  gap: 15px;
+  width: 400px;
+  padding: 20px;
+  border-radius: 16px;
+  margin: 50px auto;
+  background-color: #534340;
+}
+
+.container-panier p,
+h2,
+button {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container-panier button {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin: auto;
+  background-color: #42855b;
+  border-radius: 10px;
+  border: transparent solid 2px;
+  padding: 10px;
+  color: #f9f9f9;
+  text-decoration: none;
+  font-weight: 900;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.container-panier button:hover {
+  border: #f9f9f9 solid 2px;
+}

@@ -54,31 +54,3 @@ header {
   width: 20px;
   height: 20px;
 }
-
-/* Style panier.php */
-
-.container-panier {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  color: #f9f9f9;
-  gap: 15px;
-  width: 400px;
-  padding: 20px;
-  border-radius: 16px;
-  margin: 50px auto;
-  background-color: #534340;
-}
-
-.container-panier button {
-  display: flex;
-  align-items: center;
-  width: 30%;
-  margin: auto;
-  background-color: #42855b;
-  border-radius: 10px;
-  border: none;
-  padding: 10px;
-  color: #f9f9f9;
-  font-weight: 900;
-}
