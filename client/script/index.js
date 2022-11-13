@@ -56,7 +56,7 @@ let practiciesPerPage = 20
     let box = document.createElement("div")
     box.classList.add("practice-container")
 
-    let categoryName = document.createElement("p")
+    let categoryName = document.createElement("h1")
     categoryName.innerHTML = practiceContent.categories[0]
     box.appendChild(categoryName)
 
@@ -69,16 +69,16 @@ let practiciesPerPage = 20
 
     if (!practiceContent.isVital) {
       let button = document.createElement("button")
-      button.innerHTML = "Add"
+      button.innerHTML = "<img src='./assets/images/plus.svg'></img>"
 
       if (practiceContent.isSelected) {
         box.classList.add("isSelected")
-        button.innerHTML = "Remove"
+        button.innerHTML = "<img src='./assets/images/minus.svg'></img>"
       }
 
       button.addEventListener("click", () => {
         practiceContent.isSelected = !practiceContent.isSelected
-        button.innerHTML = practiceContent.isSelected ? "Remove" : "Add"
+        button.innerHTML = practiceContent.isSelected ? "<img src='./assets/images/minus.svg'></img>" : "<img src='./assets/images/plus.svg'></img>"
         box.classList.toggle("isSelected")
         practiceContent.isSelected
           ? addToCart(practiceContent)
