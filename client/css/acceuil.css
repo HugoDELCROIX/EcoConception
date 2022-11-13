@@ -12,8 +12,9 @@
   }
   select {
     background-color: #42855B;
+    height: 40px;
     color: white;
-    padding: 16px;
+    padding: 10px;
     border: none;
     border-radius: 20px;
   }
@@ -62,13 +63,19 @@ form{
   cursor: pointer;
 }
 
+.place{
+  position: relative;
+  display:flex;
+	flex-wrap : wrap; 
+
+}
 
 .clique {
   position: relative;
   display:flex;
 	justify-content: center; 
 	flex-wrap : wrap; 
-  width: 25%;
+  width: 200px;
   font-size: 15px;
 	border: none 1px;
 	border-radius: 20px;
@@ -97,7 +104,6 @@ form{
 }
 
 .clique p{
-  background-color: red;
   color: white; 
   max-width: 90%;
 }
