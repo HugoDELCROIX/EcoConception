@@ -54,3 +54,18 @@ header {
   width: 20px;
   height: 20px;
 }
+
+@media (max-width: 1200px) and (min-width: 300px) {
+  header {
+    height: fit-content;
+    padding: 20px;
+    gap: 10px;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .icon-text {
+    background-color: #28593a;
+    border: solid 2px #f9f9f9;
+  }
+}

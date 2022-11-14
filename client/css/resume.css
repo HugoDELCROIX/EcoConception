@@ -1,8 +1,8 @@
-body{
+body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.group-header{
+.group-header {
     margin: auto;
     margin-top: 20px;
     width: fit-content;
@@ -14,40 +14,41 @@ body{
     background-color: #534340;
 }
 
-table{
-    width: 70%;
+table {
+    width: 80%;
     border-collapse: collapse;
     margin: 50px auto;
     font-size: 0.9em;
     font-family: sans-serif;
-    min-width: 400px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
-table thead tr{
+table thead tr {
     background-color: #534340;
     color: #ffffff;
     text-align: left;
 }
 
-table th, table td{
+table th,
+table td {
     padding: 12px 15px;
 }
 
-table tbody tr{
+table tbody tr {
     border-bottom: 1px solid #dddddd;
 }
 
-table tbody tr:nth-of-type(even){
+table tbody tr:nth-of-type(even) {
     background-color: #f3f3f3;
 }
 
-table tbody tr:last-of-type{
+table tbody tr:last-of-type {
     border-bottom: 2px solid #009879;
 }
 
-.link-panier{
+.link-panier {
     margin: 20px auto;
+    align-items: center;
     display: flex;
     justify-content: space-around;
     background-color: #42855b;
@@ -61,11 +62,24 @@ table tbody tr:last-of-type{
     transition: 0.4s;
 }
 
-.link-panier:hover{
+.link-panier:hover {
     border: black solid 2px;
     background-color: #28593a;
 }
 
-.link-panier img{
+.link-panier img {
     width: 20px;
+}
+
+@media (max-width: 1200px) and (min-width: 300px) {
+
+    .group-header,
+    table {
+        font-size: 10px;
+    }
+
+    .link-panier {
+        font-size: 10px;
+        width: 120px;
+    }
 }
