@@ -48,7 +48,7 @@
 }
 
 .isVital {
-  border: red solid 4px;
+  border: #f9690e solid 4px;
 }
 
 #pagination-container {
