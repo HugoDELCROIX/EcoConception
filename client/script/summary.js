@@ -1,9 +1,9 @@
 const summaryContainer = document.getElementById("summary-container")
 
-;(function () {
-  let selectedPracticies = JSON.parse(
-    sessionStorage.getItem("selectedPracticies")
-  )
+import { initializeCart, getCartStorage } from "./modules.js"
+;(async function () {
+  if (getCartStorage() === null) await initializeCart()
+  let selectedPracticies = getCartStorage()
 
   populateContainer(selectedPracticies)
 })()
@@ -25,63 +25,41 @@ function populateContainer(selectedPracticies) {
 function makeGroupedPractice(lifecycle, practices) {
   let groupCard = document.createElement("div")
 
-  let groupHeader = document.createElement("div")
-  groupHeader.classList.add("group-header")
-  groupCard.appendChild(groupHeader)
+  groupCard.innerHTML = `
+    <div class="group-header">
+      <p>${lifecycle}</p>
+    </div>
+    <div class="group-body">
+      <table>
+        <thead>
+          <tr>
+            <th>Critère</th>
+            <th>Etapes clés</th>
+            <th>Indicateur</th>
+          </tr>
+        </thead>
+        <tbody>
 
-  let lifecycleName = document.createElement("p")
-  lifecycleName.innerHTML = lifecycle
-  groupHeader.appendChild(lifecycleName)
+        </tbody>
+      </table>
+    </div>
+  `
 
-  let groupBody = document.createElement("div")
-  groupBody.classList.add("group-body")
-  groupCard.append(groupBody)
-
-  let table = document.createElement("table")
-  groupBody.appendChild(table)
-
-  let thead = document.createElement("thead")
-  table.appendChild(thead)
-
-  let tr = document.createElement("tr")
-  thead.appendChild(tr)
-
-  let th = document.createElement("th")
-  th.innerHTML = "Critère"
-
-  let th2 = document.createElement("th")
-  th2.innerHTML = "Etapes clés"
-
-  let th3 = document.createElement("th")
-  th3.innerHTML = "Indicateur"
-
-  tr.appendChild(th)
-  tr.appendChild(th2)
-  tr.appendChild(th3)
-
-  let tbody = document.createElement("tbody")
-  table.appendChild(tbody)
+  const tbody = groupCard.getElementsByTagName("tbody")[0]
 
   practices.forEach((practice) => {
     let { criteria, keystep, indicator } = practice
 
     let practiceTr = document.createElement("tr")
 
-    let criteriaTd = document.createElement("td")
-    criteriaTd.innerHTML = criteria
-    practiceTr.appendChild(criteriaTd)
+    practiceTr.innerHTML = `
+      <td>${criteria}</td>
+      <td>${keystep}</td>
+      <td>${indicator}</td>
+    `
 
-    let keyStepTd = document.createElement("td")
-    keyStepTd.innerHTML = keystep
-    practiceTr.appendChild(keyStepTd)
-
-    let indicatorTd = document.createElement("td")
-    indicatorTd.innerHTML = indicator
-    practiceTr.appendChild(indicatorTd)
-
-    table.appendChild(practiceTr)
+    tbody.appendChild(practiceTr)
   })
 
-  groupCard.appendChild(table)
   return groupCard
 }

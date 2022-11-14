@@ -1,12 +1,12 @@
 #familiesSelector {
-  background-color: #42855B;
+  background-color: #42855b;
   margin: 20px;
   width: 200px;
   font-weight: 700;
   border-radius: 5px;
   border: black solid 2px;
   padding: 5px;
-  color: #F9F9F9;
+  color: #f9f9f9;
   text-decoration: none;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .practice-container {
-  color: #F9F9F9;
+  color: #f9f9f9;
   gap: 10px;
   margin: 10px;
   border: transparent solid 4px;
@@ -28,6 +28,7 @@
   height: 250px;
   width: 200px;
   background-color: #534340;
+  font-size: 12px;
 }
 
 .practice-container h1 {
@@ -43,11 +44,11 @@
 }
 
 .isSelected {
-  border: #42855B solid 4px;
+  border: #42855b solid 4px;
 }
 
 .isVital {
-  border: red solid 4px;
+  border: #f9690e solid 4px;
 }
 
 #pagination-container {

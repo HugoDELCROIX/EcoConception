@@ -2,11 +2,11 @@ const reviewContainer = document.getElementById("review-container")
 const exportBtn = document.getElementById("export-btn")
 const exportLayout = document.getElementById("export-layout")
 
-;(function () {
-  let selectedPracticies = JSON.parse(
-    sessionStorage.getItem("selectedPracticies")
-  )
+import { getCartStorage, initializeCart } from "./modules.js"
+;(async function () {
+  if (getCartStorage() === null) await initializeCart()
 
+  let selectedPracticies = getCartStorage()
   let groupedPracticies = getGroupedPracticies(selectedPracticies)
 
   populateReviewContainer(groupedPracticies)
